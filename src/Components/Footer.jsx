@@ -15,7 +15,6 @@ function Footer() {
             <IoLogoGithub size="50px" color="black"/>
         </a>
 
-        <p>Social Media: Facebook, Github, LinkedIn</p>
         <p>© Michael Tan</p>
     </div>);
 

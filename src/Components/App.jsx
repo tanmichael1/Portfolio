@@ -3,6 +3,7 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 import CV from "./CV";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -19,6 +20,7 @@ function App(){
   <hr></hr>
   <Projects />
   <hr></hr>
+  <Skills />
   <CV />
   <hr></hr>
   <Contact />

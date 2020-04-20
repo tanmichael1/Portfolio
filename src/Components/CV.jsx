@@ -1,7 +1,10 @@
 import React from 'react';
 
 function CV(){
-    return <h1>CV</h1>;
+    return (<div>
+    <h1>CV</h1>
+    <p>View CV</p>
+    </div>);
 
 }
 

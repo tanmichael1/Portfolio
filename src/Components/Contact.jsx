@@ -1,7 +1,20 @@
 import React from 'react';
 
 function Contact(){
-    return <h1>Contact</h1>;
+    function handleSubmit(event){
+
+    }
+    return (<div>
+    <h1>Get in Contact with Me</h1>
+    <form onSubmit>
+        <label>Name: 
+        <input type="text" name="name" />
+        </label>
+        <input type="submit" value="Submit" />
+
+
+    </form>
+    </div>);
 
 }
 

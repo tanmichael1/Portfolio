@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from "./Components/Header"
+import App from "./Components/App";
+
+//use npm start to start localhost:3000
 
 
 ReactDOM.render(
-  <Header />
+  <App />
 
     ,
 

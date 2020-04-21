@@ -3,7 +3,7 @@ import React from 'react';
 function CV(){
     return (<div>
     <h1>CV</h1>
-    <p>View CV</p>
+    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View CV</a>
     </div>);
 
 }

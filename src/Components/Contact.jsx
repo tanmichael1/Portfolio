@@ -1,38 +1,38 @@
 import React from 'react';
 
-function Contact(){
-    function handleSubmit(event){
+function Contact() {
+    function handleSubmit(event) {
 
     }
     return (<div>
-    <h1>Get in Contact with Me</h1>
-    <form onSubmit>
-        <label>Name: 
-        <input type="text" name="name" />
-        </label>
-        <input type="submit" value="Submit" />
+        <h1>Get in Contact with Me</h1>
 
 
-    </form>
-    //Name
-    //Email
-    //Subject
-    //Message
 
-    <form class="ui form contact-form">
-        <div class="field">
-            <div class="ui input">
-                <input placeholder="Name" name="name" type="text" >
 
-                </input>
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName1">Name</label>
+                <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter Name" />
             </div>
-        </div>
-        <div class="not-allowed button-wrapper">
-            <button type="submit" class="ui disabled button submit-button contact-submit" disabled tabindex="-1">
-                Submit
-            </button>
-        </div>
-    </form>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+
+                <small id="emailHelp" class="form-text text-muted">Your email won't be shared with anyone else
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputMessage">Message</label>
+                <textarea type="message" class="form-control" id="exampleInputMessage1" placeholder="Enter Message" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
     </div>);
 
 }

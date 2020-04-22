@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Skills(){
-    return <div>
+    return <div className="projects">
         <h1>Skills</h1> 
         <ul class="list-group">
             <li class="list-group-item">Java</li>

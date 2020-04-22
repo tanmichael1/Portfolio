@@ -4,7 +4,6 @@ import { IoLogoLinkedin, IoLogoFacebook, IoLogoGithub, IoIosMail } from "react-i
 function Footer() {
     return (<div className="footer">
         <hr></hr>
-        <p>(Admin login?)</p>
         <a class="link" href="https://www.facebook.com/profile.php?id=100004455215502" target="_blank" rel="noopener">
             <IoLogoFacebook size="50px" color="black" />
         </a>

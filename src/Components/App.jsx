@@ -13,7 +13,7 @@ function App(){
     return (
     <div>
   <Header />
-  <hr></hr>
+ 
   <Home />
   <hr></hr>
   <About />
@@ -21,6 +21,7 @@ function App(){
   <Projects />
   <hr></hr>
   <Skills />
+  <hr></hr>
   <CV />
   <hr></hr>
   <Contact />

@@ -11,6 +11,7 @@
     padding: 0 16px;
   }
   
+
   .header {
     background-color: rgba(0, 0, 0, 0.3);
     margin: auto -16px;
@@ -28,6 +29,22 @@
     position: center;
     text-align:center;
 }  
+
+.about{
+  position: center;
+    text-align: center;
+
+}
+
+.contact{
+  position: center;
+    text-align: center;
+}
+
+.cv{
+  position: center;
+    text-align: center;
+}
   
   .footer {
     position: center;
@@ -73,6 +90,17 @@
     height: 36px;
     cursor: pointer;
     outline: none;
+  }
+
+  .projects{
+    position: center;
+    text-align: center;
+
+  }
+
+  .skills{
+    position: center;
+    text-align: center;
   }
   
   form {

@@ -4,7 +4,7 @@ function Contact() {
     function handleSubmit(event) {
 
     }
-    return (<div>
+    return (<div className="contact">
         <h1>Get in Contact with Me</h1>
 
 

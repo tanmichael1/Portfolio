@@ -45,6 +45,16 @@
   position: center;
     text-align: center;
 }
+
+.education{
+  position: center;
+    text-align: center;
+
+
+}
+.education ul{
+  list-style-position: inside;
+}
   
   .footer {
     position: center;

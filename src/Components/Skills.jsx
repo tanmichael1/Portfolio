@@ -13,6 +13,7 @@ function Skills(){
             <li class="list-group-item">C++</li>
             <li class="list-group-item">Git</li>
             <li class="list-group-item">Node.js</li>
+            <li class="list-group-item">MongoDB</li>
         </ul>
    
     </div>;

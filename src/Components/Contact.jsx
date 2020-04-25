@@ -2,6 +2,7 @@ import React from 'react';
 
 function Contact() {
     function handleSubmit(event) {
+        console.log("test");
 
     }
     return (<div className="contact">
@@ -11,7 +12,7 @@ function Contact() {
 
 
 
-        <form>
+        <form onSubmit={handleSubmit}>
             <div class="form-group">
                 <label for="exampleInputName1">Name</label>
                 <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter Name" />

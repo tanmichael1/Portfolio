@@ -1,0 +1,6 @@
+I created a website using JavaScript, CSS and HTML as practice for myself while taking Angela Yu's Web Development online course. 
+I decided to have this be an alternative movie review website, and it's a way for me to practice my coding skills. 
+I am continuisly improving this site, and expanding certain elements. 
+
+The site is very much a work in progress and won't replace the Wordpress site where I actually have my reviews, but it's nonetheless something that I created and a way 
+that I'm challenging my skills and using it to improve myself as a coder. 

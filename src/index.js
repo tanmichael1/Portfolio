@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //use npm start to start localhost:3000
 //https://www.anniefreeman.codes/
 
+//Git
+
 
 ReactDOM.render(
   <App />

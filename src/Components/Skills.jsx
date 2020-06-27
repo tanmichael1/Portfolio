@@ -14,6 +14,8 @@ function Skills(){
             <li class="list-group-item">Git</li>
             <li class="list-group-item">Node.js</li>
             <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">SQL</li>
+            <li class="list-group-item">PostgreSQL</li>
         </ul>
    
     </div>;

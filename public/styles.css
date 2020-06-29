@@ -18,8 +18,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background-color: #f9f7f7;
   color: #112d4e;
+}
+
+body > div {
+  background-color: #f9f7f7;
 }
 
 p {
@@ -43,10 +47,6 @@ h2 {
   background-color: #112d4e;
 }
 
-.lightBlue {
-  background-color: #dbe2ef;
-}
-
 .testHeader {
   background-color: #3f72af;
 }
@@ -67,7 +67,6 @@ h2 {
 .home {
   position: center;
   text-align: center;
-  background-color: #f9f7f7;
   padding-bottom: 5px;
 }
 
@@ -120,11 +119,6 @@ p {
 }
 .education ul {
   list-style-position: inside;
-}
-
-.wholePage {
-  margin: 0;
-  padding: 0 0;
 }
 
 .footer {

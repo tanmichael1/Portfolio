@@ -29,9 +29,9 @@ This project was created with:
 
 1. Prettify and commit: DONE
 2. Remove side panels, add width blocks to div sections: DONE
-3. Remove skills section
-4. Change Website Title
-5. Change background colour to light colour for body
+3. Remove skills section: DONE
+4. Change Website Title: DONE
+5. Change background colour to light colour for body: DONE
 6. Turn footer icons white
 7. Change navbar to be sticky on left, remove router code, update to link to respective sections
 8. Add unsplash image for "Hi I'm Michael" section

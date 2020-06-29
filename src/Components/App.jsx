@@ -7,11 +7,9 @@ import CV from "./CV";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-//https://colorhunt.co/palette/22272 - white, light blue, dark blue
-
 function App() {
   return (
-    <div className="wholePage">
+    <div>
       <Header />
       <Home />
       <About />

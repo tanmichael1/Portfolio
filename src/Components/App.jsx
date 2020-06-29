@@ -15,9 +15,21 @@ import Footer from "./Footer";
 function App(){
     return (
     <div className="wholePage">
-  <Header />
- 
-  <Home />
+  
+
+  <div id="container">
+        <div id="header">
+        <p>Header</p>
+        <Header />
+    </div>
+    
+    <div id="primary">
+        <p>Primary Sidebar</p>
+    </div>
+    
+    <div id="content">
+        <p>Main content</p>
+        <Home />
   <About />
 
   <Projects />
@@ -26,8 +38,21 @@ function App(){
 
   <CV />
   <Contact />
+    </div>
+    
+    <div id="secondary">
+        <p>Secondary Sidebar</p>
+    </div>
+    
+    <div id="footer">
+        <p>Footer</p>
+        <Footer />
+    </div>
+</div>
+ 
+  
 
-  <Footer />
+  
   
   </div>);
 }

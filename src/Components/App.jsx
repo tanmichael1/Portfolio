@@ -7,19 +7,29 @@ import Skills from "./Skills";
 import CV from "./CV";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-
+//https://reacttraining.com/react-router/web/guides/quick-start
 
 //https://colorhunt.co/palette/22272 - white, light blue, dark blue
 
 function App(){
     return (
+      <Router>
+
+      
     <div className="wholePage">
   
 
   <div id="container">
         <div id="header">
         <p>Header</p>
+        
         <Header />
     </div>
     
@@ -33,7 +43,7 @@ function App(){
   <About />
 
   <Projects />
-
+      <Link to="/Projects"> Projects </Link> 
   <Skills />
 
   <CV />
@@ -54,7 +64,8 @@ function App(){
 
   
   
-  </div>);
+  </div>
+  </Router>);
 }
 
 

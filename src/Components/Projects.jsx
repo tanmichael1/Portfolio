@@ -38,6 +38,9 @@ that I'm challenging my skills and using it to improve myself as a coder. </p>
         </button>
         </a>
 
+        <br></br>
+        <br></br>
+
         <h2>Personal Portfolio</h2>
         <p>This website is also a project that I created using React, which I've also learned from taking Angela Yu's online course.
         </p>

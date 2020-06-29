@@ -3,8 +3,8 @@ import { IoLogoLinkedin, IoLogoFacebook, IoLogoGithub, IoIosMail } from "react-i
 
 function Footer() {
     return (
-    <div className="footerIcon">
-        <hr></hr>
+    <div className="footer">
+        <div className="footerIcon">
         <a class="link" href="https://www.facebook.com/profile.php?id=100004455215502" target="_blank" rel="noopener noreferrer">
             <IoLogoFacebook  size="50px" color="black" />
         </a>
@@ -17,6 +17,7 @@ function Footer() {
         <a class="link" href="mailto:michaelrstan@gmail.com" target="_blank" rel="noopener noreferrer">
             <IoIosMail size="50px" color="black"/>
         </a>
+        </div>
 
         <p>© Michael Tan</p>
     </div>);

@@ -10,6 +10,7 @@ Dark blue: #112D4E
 * {
     padding: 0;
     margin: 0;
+    margin-bottom: 0;
     box-sizing: border-box;
     
   }
@@ -19,11 +20,20 @@ Dark blue: #112D4E
   body {
     background: #eee;
     color: #112D4E;
-    padding: 0 16px;
+
   }
 
   p{
     color: #112D4E;
+    
+
+  }
+
+  hr{
+    color: #112D4E;
+   
+    
+    
   }
 
   h1{
@@ -32,6 +42,9 @@ Dark blue: #112D4E
 
   h2{
     color: #112D4E;
+    margin-bottom: 0px;
+    margin-block-end: 0px;
+  padding: 0px 0px; 
   }
 
   .navbar{
@@ -63,7 +76,8 @@ Dark blue: #112D4E
   .home{
     position: center;
     text-align:center;
-    background-color: #F9F7F7
+    background-color: #F9F7F7;
+    padding-bottom: 5px;
   }  
 
 .about{
@@ -71,12 +85,15 @@ Dark blue: #112D4E
     text-align: center;
     color: #112D4E;
     background-color: #DBE2EF;
+    margin: auto, 10px;
+    
 
     
 
 }
 .about h1, h2, p{
   color: #112D4E;
+  margin: -10px auto -10px auto;
 }
 
 .contact{
@@ -117,11 +134,18 @@ Dark blue: #112D4E
 .education ul{
   list-style-position: inside;
 }
+
+.wholePage{
+  margin: 0;
+  padding:0 0;
+}
   
   .footer {
     position: center;
     color: #112D4E;
     text-align: center;
+    padding:0;
+    margin: -10px auto -100px auto;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -135,6 +159,7 @@ Dark blue: #112D4E
   .footer p {
     color: "black";
     background-color: #3F72AF;
+    margin: auto auto auto auto;
   }
 
   .footerIcon {
@@ -184,6 +209,8 @@ Dark blue: #112D4E
     position: center;
     text-align: center;
     background-color: #F9F7F7;
+    margin-top: -15px;
+    
     
 
   }
@@ -211,9 +238,10 @@ Dark blue: #112D4E
   form {
     position: relative;
     width: 480px;
-    margin: 30px auto 20px auto;
+    margin: 30px auto 10px auto;
     background: #fff;
-    padding: 15px;
+    padding: 15px auto;
+    padding-bottom: 10px;
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }

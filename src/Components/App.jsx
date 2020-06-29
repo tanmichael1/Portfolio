@@ -14,22 +14,21 @@ import Footer from "./Footer";
 
 function App(){
     return (
-    <div>
+    <div className="wholePage">
   <Header />
  
   <Home />
-  <hr></hr>
   <About />
-  <hr></hr>
+
   <Projects />
-  <hr></hr>
+
   <Skills />
-  <hr></hr>
+
   <CV />
-  <hr></hr>
   <Contact />
-  <hr></hr>
+
   <Footer />
+  
   </div>);
 }
 

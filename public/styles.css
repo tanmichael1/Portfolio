@@ -6,279 +6,255 @@ Dark blue: #112D4E
 
 */
 
-
 * {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 0;
-    box-sizing: border-box;
-    
-    
-  }
-  html {
-    font-family: "Montserrat", sans-serif;
-    
-  }
-  body {
-    background: #eee;
-    color: #112D4E;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  color: #112d4e;
+}
 
-  }
-
-  #container {
-    width: 100%;
-    margin: 0 auto;
+#container {
+  width: 100%;
+  margin: 0 auto;
 }
 #primary {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 #content {
-    float: left;
-    width: 60%;
-    position: center;
+  float: left;
+  width: 60%;
+  position: center;
 }
 #secondary {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 #footer {
-    clear: both;
+  clear: both;
 }
 
+p {
+  color: #112d4e;
+}
 
-  p{
-    color: #112D4E;
-    
+hr {
+  color: #112d4e;
+}
 
-  }
-
-  hr{
-    color: #112D4E;
-   
-    
-    
-  }
-
-  h1{
-    color: #112D4E;
-    padding-bottom: 5px;
-  }
-
-  h2{
-    color: #112D4E;
-    margin-bottom: 0px;
-    margin-block-end: 0px;
+h1 {
+  color: #112d4e;
   padding-bottom: 5px;
-  }
-
-  .navbar{
-    background-color: #112D4E;
-  }
-
-  .lightBlue{
-    background-color: #DBE2EF;
-  }
-
-  .testHeader{
-    background-color: #3F72AF;
-  }
-  
-
-  .header {
-    background-color: rgba(0, 0, 0, 0.3);
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
-  
-  .header h1 {
-    color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
-  }
-
-  .home{
-    position: center;
-    text-align:center;
-    background-color: #F9F7F7;
-    padding-bottom: 5px;
-  }  
-
-.about{
-  position: center;
-    text-align: center;
-    color: #112D4E;
-    background-color: #DBE2EF;
-    margin: auto, 10px;
-    
-
-    
-
 }
-.about h1, h2, p{
-  color: #112D4E;
+
+h2 {
+  color: #112d4e;
+  margin-bottom: 0px;
+  margin-block-end: 0px;
+  padding-bottom: 5px;
+}
+
+.navbar {
+  background-color: #112d4e;
+}
+
+.lightBlue {
+  background-color: #dbe2ef;
+}
+
+.testHeader {
+  background-color: #3f72af;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.home {
+  position: center;
+  text-align: center;
+  background-color: #f9f7f7;
+  padding-bottom: 5px;
+}
+
+.about {
+  position: center;
+  text-align: center;
+  color: #112d4e;
+  background-color: #dbe2ef;
+  margin: auto, 10px;
+}
+.about h1,
+h2,
+p {
+  color: #112d4e;
   margin: -10px auto -10px auto;
 }
 
-.contact{
+.contact {
   position: center;
-    text-align: center;
-    background-color: #DBE2EF;
+  text-align: center;
+  background-color: #dbe2ef;
 }
 
-.contact form{
+.contact form {
   position: center;
-    text-align: center;
-    background-color: #DBE2EF;
-    width: 100%;
+  text-align: center;
+  background-color: #dbe2ef;
+  width: 100%;
 }
 
-.contact input{
+.contact input {
   position: center;
-    text-align: center;
-    background-color: #DBE2EF;
+  text-align: center;
+  background-color: #dbe2ef;
 }
 
-.contact textarea{
+.contact textarea {
   position: center;
-    text-align: center;
-    background-color: #DBE2EF;
+  text-align: center;
+  background-color: #dbe2ef;
 }
 
-.cv{
+.cv {
   position: center;
-    text-align: center;
+  text-align: center;
 }
 
-.education{
+.education {
   position: center;
-    text-align: center;
-
-
+  text-align: center;
 }
-.education ul{
+.education ul {
   list-style-position: inside;
 }
 
-.wholePage{
+.wholePage {
   margin: 0;
-  padding:0 0;
+  padding: 0 0;
 }
-  
-  .footer {
-    position: center;
-    color: #112D4E;
-    text-align: center;
-    padding:0;
-    margin: -10px auto -100px auto;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    background-color: #3F72AF;
-  }
 
-  .footer a{
-    background-color: #3F72AF;
-  }
-  
-  .footer p {
-    color: "black";
-    background-color: #3F72AF;
-    margin: auto auto auto auto;
-  }
+.footer {
+  position: center;
+  color: #112d4e;
+  text-align: center;
+  padding: 0;
+  margin: -10px auto -100px auto;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #3f72af;
+}
 
-  .footerIcon {
-    width: 100%;
-    background-color: #3F72AF;
-    position: center;
-    text-align: center;
-  }
+.footer a {
+  background-color: #3f72af;
+}
 
+.footer p {
+  color: "black";
+  background-color: #3f72af;
+  margin: auto auto auto auto;
+}
 
-  
+.footerIcon {
+  width: 100%;
+  background-color: #3f72af;
+  position: center;
+  text-align: center;
+}
 
-  .note {
-    background: #fff;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 240px;
-    margin: 16px;
-    float: left;
-  }
-  .note h1 {
-    font-size: 1.1em;
-    margin-bottom: 6px;
-  }
-  .note p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  
-  .note button {
-    position: relative;
-    float: right;
-    margin-right: 10px;
-    color: #f5ba13;
-    border: none;
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-    outline: none;
-  }
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
-  .projects{
-    /*background-color: #2E9AFE; */
-    position: center;
-    text-align: center;
-    background-color: #F9F7F7;
-    margin-top: -15px;
-    
-    
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
 
-  }
+.projects {
+  /*background-color: #2E9AFE; */
+  position: center;
+  text-align: center;
+  background-color: #f9f7f7;
+  margin-top: -15px;
+}
 
-  .skills{
-    position: center;
-    text-align: center;
-    background-color: #DBE2EF;
-  }
+.skills {
+  position: center;
+  text-align: center;
+  background-color: #dbe2ef;
+}
 
-  .skills li{
-    position: center;
-    text-align: center;
-    background-color: #DBE2EF;
-  }
+.skills li {
+  position: center;
+  text-align: center;
+  background-color: #dbe2ef;
+}
 
-  .skills h1, ul{
-    position: center;
-    text-align: center;
-    background-color: #DBE2EF;
-  }
+.skills h1,
+ul {
+  position: center;
+  text-align: center;
+  background-color: #dbe2ef;
+}
 
-
-  
-  form {
-    position: relative;
-    width: 480px;
-    margin: 30px auto 10px auto;
-    background: #fff;
-    padding: 15px auto;
-    padding-bottom: 10px;
-    border-radius: 7px;
-    box-shadow: 0 1px 5px rgb(138, 137, 137);
-  }
-  form input,
-  form textarea {
-    width: 100%;
-    border: none;
-    padding: 4px;
-    outline: none;
-    font-size: 1.2em;
-    font-family: inherit;
-    resize: none;
-  }
- 
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 10px auto;
+  background: #fff;
+  padding: 15px auto;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}

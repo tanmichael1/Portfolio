@@ -1,18 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import App from "./Components/App";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 //use npm start to start localhost:3000
 //https://www.anniefreeman.codes/
 
 //Git
 
-
 ReactDOM.render(
-  <App />
+  <App />,
 
-    ,
-
-  document.getElementById('root')
+  document.getElementById("root")
 );
-

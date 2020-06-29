@@ -2,8 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <h1>About</h1>
+      {/* py-4 */}
       <h2>Hi, my name is Michael</h2>
       <p>
         I'm in my final year of computer science and computer graphics degree.

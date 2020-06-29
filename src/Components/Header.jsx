@@ -19,17 +19,13 @@ function Header() {
           aria-controls="basic-navbar-nav"
         />
         <Navbar.Collapse className="testHeader" id="basic-navbar-nav">
-          <Nav
-            className="mr-auto testHeader"
-            activeKey="/home"
-            onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-          >
+          <Nav className="mr-auto testHeader" activeKey="/home">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Item>
               <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-1">About</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="link-2">Projects</Nav.Link>

@@ -28,7 +28,7 @@ This project was created with:
 ## Planning/to do
 
 1. Prettify and commit: DONE
-2. Remove side panels, add width blocks to div sections
+2. Remove side panels, add width blocks to div sections: DONE
 3. Remove skills section
 4. Change Website Title
 5. Change background colour to light colour for body

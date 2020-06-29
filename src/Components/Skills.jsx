@@ -3,8 +3,8 @@ import React from 'react';
 function Skills(){
     return <div className="skills">
         <h1>Skills in Coding</h1> 
-        <ul class="list-group">
-            <li class="list-group-item">Java</li>
+        <ul className="skills" class="list-group">
+            <li className="skills" class="list-group-item">Java</li>
             <li class="list-group-item">JavaScript</li>
             <li class="list-group-item">HTML</li>
             <li class="list-group-item">React</li>

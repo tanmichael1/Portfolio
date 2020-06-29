@@ -1,14 +1,49 @@
+/*
+White: #F9F7F7
+Faint blue: #DBE2EF
+Blue: #3F72AF
+Dark blue: #112D4E
+
+*/
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
   }
   html {
     font-family: "Montserrat", sans-serif;
   }
   body {
     background: #eee;
+    color: #112D4E;
     padding: 0 16px;
+  }
+
+  p{
+    color: #112D4E;
+  }
+
+  h1{
+    color: #112D4E;
+  }
+
+  h2{
+    color: #112D4E;
+  }
+
+  .navbar{
+    background-color: #112D4E;
+  }
+
+  .lightBlue{
+    background-color: #DBE2EF;
+  }
+
+  .testHeader{
+    background-color: #3F72AF;
   }
   
 
@@ -28,17 +63,44 @@
   .home{
     position: center;
     text-align:center;
-}  
+    background-color: #F9F7F7
+  }  
 
 .about{
   position: center;
     text-align: center;
+    color: #112D4E;
+    background-color: #DBE2EF;
 
+    
+
+}
+.about h1, h2, p{
+  color: #112D4E;
 }
 
 .contact{
   position: center;
     text-align: center;
+    background-color: #DBE2EF;
+}
+
+.contact form{
+  position: center;
+    text-align: center;
+    background-color: #DBE2EF;
+}
+
+.contact input{
+  position: center;
+    text-align: center;
+    background-color: #DBE2EF;
+}
+
+.contact textarea{
+  position: center;
+    text-align: center;
+    background-color: #DBE2EF;
 }
 
 .cv{
@@ -58,15 +120,30 @@
   
   .footer {
     position: center;
+    color: #112D4E;
     text-align: center;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+    background-color: #3F72AF;
+  }
+
+  .footer a{
+    background-color: #3F72AF;
   }
   
   .footer p {
     color: "black";
+    background-color: #3F72AF;
   }
+
+  .footerIcon {
+    width: 100%;
+    background-color: #3F72AF;
+    position: center;
+    text-align: center;
+  }
+
 
   
 
@@ -106,13 +183,30 @@
     /*background-color: #2E9AFE; */
     position: center;
     text-align: center;
+    background-color: #F9F7F7;
+    
 
   }
 
   .skills{
     position: center;
     text-align: center;
+    background-color: #DBE2EF;
   }
+
+  .skills li{
+    position: center;
+    text-align: center;
+    background-color: #DBE2EF;
+  }
+
+  .skills h1, ul{
+    position: center;
+    text-align: center;
+    background-color: #DBE2EF;
+  }
+
+
   
   form {
     position: relative;

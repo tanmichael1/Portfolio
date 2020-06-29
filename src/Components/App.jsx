@@ -9,6 +9,9 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 
+
+//https://colorhunt.co/palette/22272 - white, light blue, dark blue
+
 function App(){
     return (
     <div>

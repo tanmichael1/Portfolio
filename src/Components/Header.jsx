@@ -5,12 +5,12 @@ function Header() {
     return (
         <div>
 
-
-            <Navbar bg="light" expand="lg" >
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto"
+           { /* <Navbar className="testHeader" bg="light" expand="lg" ></Navbar>*/}
+            <Navbar className="testHeader" expand="lg" >
+                <Navbar.Brand className="testHeader" href="#home"></Navbar.Brand>
+                <Navbar.Toggle className="testHeader" aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className="testHeader" id="basic-navbar-nav">
+                    <Nav className="mr-auto testHeader"
                         activeKey="/home"
                         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
                     >

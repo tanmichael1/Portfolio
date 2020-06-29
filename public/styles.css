@@ -1,4 +1,6 @@
 /*
+https://colorhunt.co/palette/22272 - white, light blue, dark blue
+
 White: #F9F7F7
 Faint blue: #DBE2EF
 Blue: #3F72AF
@@ -20,34 +22,9 @@ body {
   color: #112d4e;
 }
 
-#container {
-  width: 100%;
-  margin: 0 auto;
-}
-#primary {
-  float: left;
-  width: 20%;
-}
-#content {
-  float: left;
-  width: 60%;
-  position: center;
-}
-#secondary {
-  float: left;
-  width: 20%;
-}
-#footer {
-  clear: both;
-}
-
 p {
   color: #112d4e;
   text-align: left;
-}
-
-hr {
-  color: #112d4e;
 }
 
 h1 {
@@ -183,25 +160,6 @@ p {
   text-align: center;
   background-color: #f9f7f7;
   margin-top: -15px;
-}
-
-.skills {
-  position: center;
-  text-align: center;
-  background-color: #dbe2ef;
-}
-
-.skills li {
-  position: center;
-  text-align: center;
-  background-color: #dbe2ef;
-}
-
-.skills h1,
-ul {
-  position: center;
-  text-align: center;
-  background-color: #dbe2ef;
 }
 
 form {

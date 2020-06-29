@@ -1,1 +1,0 @@
-This website is also a project that I created using React, which I've also learned from taking Angela Yu's online course.

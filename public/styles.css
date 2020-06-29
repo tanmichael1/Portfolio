@@ -118,7 +118,6 @@ p {
   position: center;
   text-align: center;
   background-color: #dbe2ef;
-  width: 100%;
 }
 
 .contact input {
@@ -158,7 +157,6 @@ p {
   padding: 0;
   margin: -10px auto -100px auto;
   bottom: 0;
-  width: 100%;
   height: 2.5rem;
   background-color: #3f72af;
 }
@@ -174,42 +172,9 @@ p {
 }
 
 .footerIcon {
-  width: 100%;
   background-color: #3f72af;
   position: center;
   text-align: center;
-}
-
-.note {
-  background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
-  margin: 16px;
-  float: left;
-}
-.note h1 {
-  font-size: 1.1em;
-  margin-bottom: 6px;
-}
-.note p {
-  font-size: 1.1em;
-  margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-.note button {
-  position: relative;
-  float: right;
-  margin-right: 10px;
-  color: #f5ba13;
-  border: none;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  outline: none;
 }
 
 .projects {
@@ -241,7 +206,6 @@ ul {
 
 form {
   position: relative;
-  width: 480px;
   margin: 30px auto 10px auto;
   background: #fff;
   padding: 15px auto;
@@ -251,7 +215,6 @@ form {
 }
 form input,
 form textarea {
-  width: 100%;
   border: none;
   padding: 4px;
   outline: none;

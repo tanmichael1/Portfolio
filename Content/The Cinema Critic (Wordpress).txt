@@ -1,6 +1,0 @@
-A movie review website that I started as a school personal project back in 2014, initially intended just as a blog with 50 movie reviews. 
-After completing that project however, I continued to write reviews in the years that followed, and in that time I have written over 650 reviews. 
-I have a passion and keen interest in movies, and so I got into this quite a bit, and my skills in writing movie reviews have been continully improving. 
-
-This website had been created on Wordpress, and using the language of HTML. 
-I had been using this site even before I learned how to code, and mostly copied and pasted code for each post, but now I know what it all means.

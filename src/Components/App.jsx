@@ -15,43 +15,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div className="wholePage">
-        <div id="container">
-          <div id="header">
-            <p>Header</p>
-
-            <Header />
-          </div>
-
-          <div id="primary">
-            <p>Primary Sidebar</p>
-          </div>
-
-          <div id="content">
-            <p>Main content</p>
-            <Home />
-            <About />
-
-            <Projects />
-            <Link to="/Projects"> Projects </Link>
-            <Skills />
-
-            <CV />
-            <Contact />
-          </div>
-
-          <div id="secondary">
-            <p>Secondary Sidebar</p>
-          </div>
-
-          <div id="footer">
-            <p>Footer</p>
-            <Footer />
-          </div>
-        </div>
-      </div>
-    </Router>
+    <div className="wholePage">
+      <Header />
+      <Home />
+      <About />
+      <Projects />
+      <Skills />
+      <CV />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

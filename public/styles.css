@@ -124,17 +124,25 @@ h2 {
   padding-top: 30vh;
 }
 
+.home h1 {
+  font-size: 15vh;
+}
+
 .about {
   position: center;
   text-align: center;
   color: #112d4e;
   background-color: #dbe2ef;
 }
-.about h1,
-h2,
-p {
+.about h1 {
   color: #112d4e;
   margin: -10px auto -10px auto;
+  margin-bottom: 1vh;
+}
+
+.about p {
+  color: #112d4e;
+  margin-bottom: 10px;
 }
 
 .contact {
@@ -161,13 +169,13 @@ p {
 .contact input {
   position: center;
   text-align: center;
-  background-color: #dbe2ef;
+  background-color: #f9f7f7;
 }
 
 .contact textarea {
   position: center;
   text-align: center;
-  background-color: #dbe2ef;
+  background-color: #f9f7f7;
 }
 
 .cv {
@@ -234,6 +242,7 @@ form {
 form input,
 form textarea {
   border: none;
+
   padding: 4px;
   outline: none;
   font-size: 1.2em;

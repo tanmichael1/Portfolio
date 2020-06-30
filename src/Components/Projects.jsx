@@ -7,7 +7,8 @@ function Projects() {
         <h1>Projects</h1>
 
         <h2>The Cinema Critic (Wordpress)</h2>
-        <p>Screenshot</p>
+
+        <img style={{ height: "50vh" }} src={"./images/Wordpress.JPG"} />
         <p>
           A movie review website that I started as a school personal project
           back in 2014, initially intended just as a blog with 50 movie reviews.
@@ -32,7 +33,7 @@ function Projects() {
         <br></br>
         <br></br>
 
-        <h2>The Cinema Critic (Experiment)</h2>
+        <h2>The Cinema Critic (Node.js)</h2>
         <p>Screenshot</p>
         <p>
           I created a website using JavaScript, CSS and HTML as practice for

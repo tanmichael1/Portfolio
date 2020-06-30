@@ -6,13 +6,11 @@ function About() {
       <div style={{ width: "50vw", margin: "auto" }}>
         <h1>About</h1>
         {/* py-4 */}
-        <h2>Hi, my name is Michael</h2>
         <p>
           I'm in my final year of computer science and computer graphics degree.
           If I'm not coding, I'm writing movie reviews.
         </p>
 
-        <h2>Ambitions</h2>
         <p>
           I have always been interested in computers and digital technology, and
           my academic strengths include Maths and Physics. I would like to
@@ -22,7 +20,6 @@ function About() {
           the industry.
         </p>
 
-        <h2>Experience</h2>
         <p>
           I am currently learning about computer programming and fundamental,
           technical concepts in computer science practice as my chosen programme

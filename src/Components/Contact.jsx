@@ -5,7 +5,7 @@ function Contact() {
     console.log("test");
   }
   return (
-    <div id="contact" className="contact">
+    <div id="contact" className="contact ">
       <h1>Get in Contact with Me</h1>
       <div style={{ width: "50vw", margin: "auto" }}>
         <form onSubmit={handleSubmit}>
@@ -53,7 +53,7 @@ function Contact() {
             />
           </div>
 
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" class="btn btn-primary btn-lg active">
             Submit
           </button>
         </form>

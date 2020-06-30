@@ -14,8 +14,11 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <CV />
-      <Contact />
+      <div className="cvContact" style={{ height: "100vh" }}>
+        <CV />
+        <Contact />
+      </div>
+
       <Footer />
     </div>
   );

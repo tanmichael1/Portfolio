@@ -61,17 +61,22 @@ Dark blue: #112D4E
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
-  background-color: #f9f7f7;
   color: #112d4e;
+  background-color: #f9f7f7;
 }
 
 body > div {
-  background-color: #f9f7f7;
+  text-decoration: none;
+}
+
+body > div > a {
+  text-decoration: none;
 }
 
 .backgroundImage {
-  background: url(./images/Laptop[229].jpg);
+  background: url(./images/Laptop.jpg);
   height: 100vh;
 }
 
@@ -116,10 +121,6 @@ h2 {
 .home {
   position: center;
   text-align: center;
-  padding-bottom: 5px;
-}
-
-.home h1 {
   padding-top: 30vh;
 }
 
@@ -128,7 +129,6 @@ h2 {
   text-align: center;
   color: #112d4e;
   background-color: #dbe2ef;
-  margin: auto, 10px;
 }
 .about h1,
 h2,
@@ -139,14 +139,23 @@ p {
 
 .contact {
   position: center;
-  text-align: center;
+  text-align: right;
   background-color: #dbe2ef;
+  float: left;
+  height: 75vh;
+  width: 50%;
+  padding: 0 50px;
+}
+
+.contact h1 {
+  position: right;
 }
 
 .contact form {
   position: center;
   text-align: center;
   background-color: #dbe2ef;
+  width: 50%;
 }
 
 .contact input {
@@ -162,16 +171,18 @@ p {
 }
 
 .cv {
-  position: center;
+  position: left;
+  background-color: #dbe2ef;
+  float: right;
+  width: 50%;
+  height: 75vh;
   text-align: center;
 }
 
-.education {
-  position: center;
-  text-align: center;
-}
-.education ul {
-  list-style-position: inside;
+.cvContact {
+  height: 100px;
+  width: 100%;
+  background-color: #dbe2ef;
 }
 
 .footer {
@@ -190,9 +201,10 @@ p {
 }
 
 .footer p {
-  color: "black";
+  color: white;
   background-color: #3f72af;
   margin: auto auto auto auto;
+  text-align: center;
 }
 
 .footerIcon {
@@ -205,8 +217,9 @@ p {
   /*background-color: #2E9AFE; */
   position: center;
   text-align: center;
-  background-color: #f9f7f7;
+
   margin-top: -15px;
+  margin-bottom: 15px;
 }
 
 form {

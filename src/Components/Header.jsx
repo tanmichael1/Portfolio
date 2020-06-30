@@ -11,7 +11,17 @@ import {
 function Header() {
   return (
     <div>
+      <div class="sidenav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+
       {/* <Navbar className="testHeader" bg="light" expand="lg" ></Navbar>*/}
+
+      {/* 
       <Navbar className="testHeader" expand="lg">
         <Navbar.Brand className="testHeader" href="#home"></Navbar.Brand>
         <Navbar.Toggle
@@ -39,6 +49,7 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      */}
     </div>
   );
 }

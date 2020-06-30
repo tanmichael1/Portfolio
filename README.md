@@ -33,7 +33,7 @@ This project was created with:
 4. Change Website Title: DONE
 5. Change background colour to light colour for body: DONE
 6. Turn footer icons white: DONE
-7. Change navbar to be sticky on left, remove router code, update to link to respective sections
+7. Change navbar to be sticky on left, remove router code, update to link to respective sections: DONE
 8. Add unsplash image for "Hi I'm Michael" section
 9. Add bootstrap margin/padding
 10. Make Contact Me section functional, format it, and make it able to send an email

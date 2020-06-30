@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div style={{ width: "50vw", margin: "auto" }}>
         <h1>Projects</h1>
 

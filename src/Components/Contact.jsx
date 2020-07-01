@@ -75,9 +75,13 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div id="contact" className="contact">
+      <div
+        id="contact"
+        /*style={{ width: "65vw", margin: "auto" }}*/
+        className="contact"
+      >
         {/*className="contact" */}
-        <h1>Get in Contact with Me</h1>
+        <h1>Contact Me</h1>
         {/*Form layout that requires a Name, Email, and message */}
         <form className="test-mailing" onSubmit={this.handleSubmit}>
           <br />
@@ -133,7 +137,7 @@ class Contact extends React.Component {
               />
             </div>
           </div>
-
+          <br />
           <button
             type="submit"
             class="btn btn-primary btn-lg active"

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div id="about" className="about">
-      <div style={{ width: "50vw", margin: "auto" }}>
+      <div style={{ width: "65vw", margin: "auto" }}>
         <h1>About</h1>
         {/* py-4 */}
         <p>

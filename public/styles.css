@@ -32,7 +32,7 @@ Dark blue: #112D4E
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #112d4e;
   display: block;
 }
@@ -49,6 +49,7 @@ Dark blue: #112D4E
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -57,6 +58,7 @@ Dark blue: #112D4E
     font-size: 18px;
   }
 }
+*/
 
 html {
   font-family: "Montserrat", sans-serif;
@@ -78,6 +80,12 @@ body > div > a {
 .backgroundImage {
   background: url(./images/Laptop.jpg);
   height: 100vh;
+  background-position: 41% 40%;
+}
+
+.backgroundImage img {
+  background: url(./images/Laptop.jpg);
+  float: right center;
 }
 
 p {
@@ -97,35 +105,17 @@ h2 {
   padding-bottom: 5px;
 }
 
-.navbar {
-  background-color: #112d4e;
-}
-
-.testHeader {
-  background-color: #3f72af;
-}
-
-.header {
-  background-color: rgba(0, 0, 0, 0.3);
-  margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-.header h1 {
-  color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-}
-
 .home {
   position: center;
   text-align: center;
-  padding-top: 30vh;
+  padding-top: 10vh;
 }
 
 .home h1 {
   font-size: 15vh;
+}
+.home h2 {
+  font-size: 5vh;
 }
 
 .about {
@@ -133,6 +123,7 @@ h2 {
   text-align: center;
   color: #112d4e;
   background-color: #dbe2ef;
+  padding-bottom: 1vh;
 }
 .about h1 {
   color: #112d4e;
@@ -142,49 +133,45 @@ h2 {
 
 .about p {
   color: #112d4e;
-  margin-bottom: 10px;
 }
 
 .contact {
-  position: right;
-  text-align: right;
   background-color: #dbe2ef;
-  /*float: left;*/
-  /*height: 75vh;*/
-  width: 50%;
-  /*padding: 0 50px;*/
 }
 
 .contact h1 {
-  position: right;
+  margin-left: 12vw;
 }
 
 .contact form {
   position: center;
   text-align: center;
   background-color: #dbe2ef;
-  width: 60%;
+  width: 80%;
 }
 
 .contact input {
+  width: 80%;
+  margin-left: 3vw;
   position: center;
   text-align: center;
   background-color: #f9f7f7;
 }
 
 .contact textarea {
+  width: 80%;
+  margin-left: 3vw;
   position: center;
   text-align: center;
   background-color: #f9f7f7;
 }
 
 .cv {
-  position: left;
-  background-color: #dbe2ef;
-  float: right;
-  width: 50%;
-  height: 75vh;
+  position: center;
+  width: 100%;
+  height: 23vh;
   text-align: center;
+  margin-left: 15vh;
 }
 
 .cvContact {
@@ -197,6 +184,7 @@ h2 {
   position: center;
   color: white;
   text-align: center;
+  width: 100%;
   padding: 0;
   margin: -10px auto -100px auto;
   bottom: 0;
@@ -226,7 +214,7 @@ h2 {
   position: center;
   text-align: center;
 
-  margin-top: -15px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -248,4 +236,83 @@ form textarea {
   font-size: 1.2em;
   font-family: inherit;
   resize: none;
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .home {
+    padding-top: 10vw;
+  }
+
+  .backgroundImage {
+    background: url(./images/Laptop3.jpg);
+    height: 50vw;
+  }
+
+  .cv {
+    margin-left: 20vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  .sidenav {
+    visibility: hidden;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  .home {
+    position: center;
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  .home h1 {
+    font-size: 10vh;
+  }
+
+  .backgroundImage {
+    background: url(./images/Laptop2.jpg);
+    height: 100vw;
+  }
+
+  .projects img {
+    width: 65vw;
+    height: 20vw;
+  }
+  .contact {
+    margin-left: 5vw;
+  }
+
+  .contact h1 {
+    margin-left: 15vw;
+  }
+
+  .cv {
+    padding-left: 5vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+  .contact {
+    margin-left: 0vw;
+  }
+  .contact h1 {
+    margin-left: 25vw;
+  }
+
+  .contact input {
+    margin-left: 5vw;
+  }
+
+  .contact textarea {
+    margin-left: 5vw;
+  }
+
+  .cv {
+    margin-left: 0vw;
+  }
 }

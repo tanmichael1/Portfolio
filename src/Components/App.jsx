@@ -11,14 +11,20 @@ function App() {
   return (
     <div>
       <Header />
-
       <Home />
       <About />
       <Projects />
-
-      <div className="cvContact" style={{ height: "100vh" }}>
-        <CV />
-        <Contact />
+      <div style={{ backgroundColor: "#dbe2ef", padding: "5vh" }}>
+        <div class="container" style={{ backgroundColor: "#dbe2ef" }}>
+          <div class="row" style={{ backgroundColor: "#dbe2ef" }}>
+            <div class="col-lg">
+              <Contact />
+            </div>
+            <div class="col-lg">
+              <CV />
+            </div>
+          </div>
+        </div>
       </div>
 
       <Footer />

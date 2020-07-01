@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <div id="projects" className="projects">
-      <div style={{ width: "50vw", margin: "auto" }}>
+      <div style={{ width: "65vw", margin: "auto" }}>
         <h1>Projects</h1>
 
         <h2>The Cinema Critic (Wordpress)</h2>

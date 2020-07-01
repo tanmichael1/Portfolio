@@ -11,9 +11,11 @@ function App() {
   return (
     <div>
       <Header />
+
       <Home />
       <About />
       <Projects />
+
       <div className="cvContact" style={{ height: "100vh" }}>
         <CV />
         <Contact />

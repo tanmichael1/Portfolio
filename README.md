@@ -36,6 +36,6 @@ This project was created with:
 7. Change navbar to be sticky on left, remove router code, update to link to respective sections: DONE
 8. Add unsplash image for "Home" section: DONE
 9. Put contact and CV sections next to each other: DONE
-10. Add bootstrap margin/padding
-11. Make Contact Me section functional, format it, and make it able to send an email
+10. Make Contact Me section functional, format it, and make it able to send an email: DONE
+11. Add bootstrap margin/padding
 12. Make mobile accessible

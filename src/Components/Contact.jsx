@@ -122,8 +122,8 @@ class Contact extends React.Component {
               />
             </div>
 
-            <label htmlFor="message">Message</label>
             <div>
+              <label htmlFor="message">Message</label>
               <textarea
                 id="message"
                 name="message"

@@ -79,7 +79,6 @@ body > div > a {
 
 .backgroundImage {
   background: url(./images/Laptop.jpg);
-  height: 100vh;
   background-position: 41% 40%;
 }
 
@@ -108,15 +107,16 @@ h2 {
 .home {
   position: center;
   text-align: center;
-  padding-top: 10vh;
 }
 
+/*
 .home h1 {
-  font-size: 15vh;
+  font-size: 9vw;
 }
 .home h2 {
-  font-size: 5vh;
+  font-size: 3vw;
 }
+*/
 
 .about {
   position: center;
@@ -139,33 +139,36 @@ h2 {
   background-color: #dbe2ef;
 }
 
-.contact h1 {
-  margin-left: 12vw;
-}
-
 .contact form {
+  /*
   position: center;
   text-align: center;
+  */
   background-color: #dbe2ef;
   width: 80%;
 }
 
 .contact input {
   width: 80%;
-  margin-left: 3vw;
+  /*
+  margin-left: 6vw;
   position: center;
   text-align: center;
+  */
   background-color: #f9f7f7;
 }
 
 .contact textarea {
   width: 80%;
+  /*
   margin-left: 3vw;
   position: center;
   text-align: center;
+  */
   background-color: #f9f7f7;
 }
 
+/*
 .cv {
   position: center;
   width: 100%;
@@ -173,12 +176,7 @@ h2 {
   text-align: center;
   margin-left: 15vh;
 }
-
-.cvContact {
-  height: 100px;
-  width: 100%;
-  background-color: #dbe2ef;
-}
+*/
 
 .footer {
   position: center;
@@ -238,74 +236,45 @@ form textarea {
   resize: none;
 }
 
-/*Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-  .home {
-    padding-top: 10vw;
-  }
-
-  .backgroundImage {
-    background: url(./images/Laptop3.jpg);
-    height: 50vw;
-  }
-
-  .cv {
-    margin-left: 20vw;
-  }
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) {
+/*Extra small*/
+@media (min-width: 0px) {
   .sidenav {
     visibility: hidden;
   }
-  .sidenav a {
-    font-size: 18px;
-  }
 
-  .home {
-    position: center;
-    text-align: center;
-    padding-top: 5vh;
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    height: 70vw;
+    background-position: 40% 40%;
   }
 
   .home h1 {
-    font-size: 10vh;
+    font-size: 10vw;
   }
 
-  .backgroundImage {
-    background: url(./images/Laptop2.jpg);
-    height: 100vw;
+  .home h2 {
+    font-size: 4vw;
   }
 
   .projects img {
     width: 65vw;
-    height: 20vw;
+
+    height: 50vh;
   }
+
   .contact {
-    margin-left: 5vw;
+    text-align: center;
   }
 
   .contact h1 {
-    margin-left: 15vw;
-  }
-
-  .cv {
-    padding-left: 5vw;
-  }
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) {
-  .contact {
-    margin-left: 0vw;
-  }
-  .contact h1 {
-    margin-left: 25vw;
+    margin-left: 1vw;
   }
 
   .contact input {
+    width: 80%;
     margin-left: 5vw;
+
+    background-color: #f9f7f7;
   }
 
   .contact textarea {
@@ -313,6 +282,211 @@ form textarea {
   }
 
   .cv {
+    text-align: center;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .home {
+    padding-top: 10vw;
+  }
+
+  .home h1 {
+    font-size: 10vw;
+  }
+
+  .home h2 {
+    font-size: 4vw;
+  }
+
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    height: 70vw;
+    background-position: 40% 40%;
+  }
+
+  .cv {
     margin-left: 0vw;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact h1 {
+    margin-left: 1vw;
+  }
+
+  .contact input {
+    width: 80%;
+    margin-left: 5vw;
+
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    margin-left: 5vw;
+  }
+
+  .sidenav {
+    visibility: hidden;
+  }
+  .projects img {
+    width: 65vw;
+    height: 20vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .sidenav {
+    visibility: hidden;
+  }
+
+  .home {
+    position: center;
+    text-align: center;
+  }
+
+  .home h1 {
+    font-size: 10vw;
+  }
+
+  .home h2 {
+    font-size: 4vw;
+  }
+
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    height: 100vw;
+    background-position: 40% 40%;
+  }
+
+  .projects img {
+    width: 65vw;
+    height: 20vh;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact h1 {
+    margin-left: 1vw;
+  }
+
+  .contact input {
+    width: 80%;
+    margin-left: 5vw;
+
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    margin-left: 5vw;
+  }
+
+  .cv {
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    height: 100vh;
+    background-position: 40% 40%;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .home h1 {
+    font-size: 7vw;
+  }
+
+  .home h2 {
+    font-size: 3vw;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact h1 {
+    margin-left: 1vw;
+  }
+
+  .contact input {
+    width: 80%;
+    margin-left: 2vw;
+
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    margin-left: 2vw;
+  }
+
+  .cv {
+    text-align: center;
+    margin-left: 2vw;
+  }
+  .projects img {
+    width: 65vw;
+    height: 20vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    background-size: 150vw;
+    height: 100vh;
+    background-position: 40% 40%;
+  }
+
+  .home h1 {
+    font-size: 7vw;
+  }
+
+  .home h2 {
+    font-size: 3vw;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .projects img {
+    width: 65vw;
+    height: 55vh;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact h1 {
+    margin-left: 1vw;
+  }
+
+  .contact input {
+    width: 80%;
+    margin-left: 2vw;
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    margin-left: 2vw;
+  }
+
+  .cv {
+    text-align: center;
+    margin-left: 2vw;
   }
 }

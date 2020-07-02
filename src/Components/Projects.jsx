@@ -8,7 +8,7 @@ function Projects() {
 
         <h2>The Cinema Critic (Wordpress)</h2>
 
-        <img style={{ height: "50vh" }} src={"./images/Wordpress.JPG"} />
+        <img src={"./images/Wordpress.JPG"} />
         <p>
           A movie review website that I started as a school personal project
           back in 2014, initially intended just as a blog with 50 movie reviews.
@@ -34,7 +34,7 @@ function Projects() {
         <br></br>
 
         <h2>The Cinema Critic (Node.js)</h2>
-        <p>Screenshot</p>
+        <img src={"./images/Appjs.jpg"} />
         <p>
           I created a website using JavaScript, CSS and HTML as practice for
           myself while taking Angela Yu's Web Development online course. I

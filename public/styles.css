@@ -137,6 +137,7 @@ h2 {
 
 .contact {
   background-color: #dbe2ef;
+  padding-bottom: "5vh";
 }
 
 .contact form {
@@ -177,6 +178,14 @@ h2 {
   margin-left: 15vh;
 }
 */
+
+.cv {
+  padding-bottom: "5vh";
+}
+
+.projects img {
+  margin-bottom: 1vw;
+}
 
 .footer {
   position: center;
@@ -258,8 +267,7 @@ form textarea {
 
   .projects img {
     width: 65vw;
-
-    height: 50vh;
+    height: 30vw;
   }
 
   .contact {
@@ -334,7 +342,7 @@ form textarea {
   }
   .projects img {
     width: 65vw;
-    height: 20vw;
+    height: 30vw;
   }
 }
 
@@ -365,7 +373,7 @@ form textarea {
 
   .projects img {
     width: 65vw;
-    height: 20vh;
+    height: 30vw;
   }
 
   .contact {
@@ -437,7 +445,7 @@ form textarea {
   }
   .projects img {
     width: 65vw;
-    height: 20vw;
+    height: 30vw;
   }
 }
 
@@ -451,7 +459,7 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 7vw;
+    position: top;
   }
 
   .home h2 {
@@ -464,7 +472,7 @@ form textarea {
 
   .projects img {
     width: 65vw;
-    height: 55vh;
+    height: 30vw;
   }
 
   .contact {

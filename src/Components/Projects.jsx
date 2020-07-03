@@ -25,7 +25,7 @@ function Projects() {
           and mostly copied and pasted code for each post, but now I know what
           it all means.{" "}
         </p>
-        <a href="https://thecinemacritic.wordpress.com/">
+        <a href="https://thecinemacritic.wordpress.com/" target="_blank">
           <button type="button" class="btn btn-outline-secondary">
             Link
           </button>
@@ -49,7 +49,10 @@ function Projects() {
           something that I created and a way that I'm challenging my skills and
           using it to improve myself as a coder.{" "}
         </p>
-        <a href="https://github.com/tanmichael1/Film-Review-Website">
+        <a
+          href="https://github.com/tanmichael1/Film-Review-Website"
+          target="_blank"
+        >
           <button type="button" class="btn btn-outline-secondary">
             Github
           </button>
@@ -63,7 +66,7 @@ function Projects() {
           This website is also a project that I created using React, which I've
           also learned from taking Angela Yu's online course.
         </p>
-        <a href="https://github.com/tanmichael1/Portfolio">
+        <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
           <button type="button" class="btn btn-outline-secondary">
             Github
           </button>

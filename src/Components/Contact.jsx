@@ -128,7 +128,6 @@ class Contact extends React.Component {
                 id="message"
                 name="message"
                 onChange={this.messageChange}
-                placeholder="Put your message here"
                 required
                 className="email-text-area form-control"
                 /*
@@ -140,7 +139,8 @@ class Contact extends React.Component {
           <br />
           <button
             type="submit"
-            class="btn btn-primary btn-lg active"
+            class="btn btn-lg active"
+            /*class="btn btn-primary btn-lg active"*/
             onClick={() => this.handleSubmit}
           >
             Submit

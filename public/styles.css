@@ -141,17 +141,29 @@ h2 {
   padding-bottom: "5vh";
 }
 
+.contact h1 {
+  background-color: #dbe2ef;
+  padding-bottom: "5vh";
+  text-align: center;
+}
+
 .contact form {
   /*
   position: center;
   text-align: center;
   */
+
   background-color: #dbe2ef;
   width: 80%;
 }
 
+.contact label {
+  text-align: start;
+}
+
 .contact input {
   width: 80%;
+
   /*
   margin-left: 6vw;
   position: center;
@@ -170,6 +182,11 @@ h2 {
   background-color: #f9f7f7;
 }
 
+.contact button {
+  background-color: #3f72af;
+  color: #f9f7f7;
+}
+
 /*
 .cv {
   position: center;
@@ -181,7 +198,12 @@ h2 {
 */
 
 .cv {
-  padding-bottom: "5vh";
+  margin-top: 30vh;
+}
+
+.cv button {
+  background-color: #3f72af;
+  color: #f9f7f7;
 }
 
 .projects img {
@@ -271,12 +293,12 @@ form textarea {
     height: 30vw;
   }
 
-  .contact {
-    text-align: center;
-  }
-
   .contact h1 {
     margin-left: 1vw;
+  }
+
+  .contact label {
+    margin-left: 5vw;
   }
 
   .contact input {
@@ -290,7 +312,12 @@ form textarea {
     margin-left: 5vw;
   }
 
+  .contact button {
+    margin-left: 27vw;
+  }
+
   .cv {
+    margin-top: 7vh;
     text-align: center;
   }
 }
@@ -316,11 +343,12 @@ form textarea {
   }
 
   .cv {
-    margin-left: 0vw;
+    margin-top: 7vh;
+    text-align: center;
   }
 
-  .contact {
-    text-align: center;
+  .contact label {
+    margin-left: 5vw;
   }
 
   .contact h1 {
@@ -336,6 +364,10 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
+  }
+
+  .contact button {
+    margin-left: 23vw;
   }
 
   .sidenav {
@@ -377,8 +409,8 @@ form textarea {
     height: 30vw;
   }
 
-  .contact {
-    text-align: center;
+  .contact label {
+    margin-left: 5vw;
   }
 
   .contact h1 {
@@ -395,8 +427,11 @@ form textarea {
   .contact textarea {
     margin-left: 5vw;
   }
-
+  .contact button {
+    margin-left: 27vw;
+  }
   .cv {
+    margin-top: 7vh;
     text-align: center;
   }
 }
@@ -421,10 +456,9 @@ form textarea {
     font-size: 3vw;
   }
 
-  .contact {
-    text-align: center;
+  .contact label {
+    margin-left: 2vw;
   }
-
   .contact h1 {
     margin-left: 1vw;
   }
@@ -440,9 +474,20 @@ form textarea {
     margin-left: 2vw;
   }
 
+  .contact button {
+    margin-left: 11vw;
+  }
+
   .cv {
     text-align: center;
     margin-left: 2vw;
+    margin-top: 25vh;
+  }
+
+  .cv button {
+    text-align: center;
+    margin-left: 2vw;
+    margin-top: 5vw;
   }
   .projects img {
     width: 65vw;
@@ -476,12 +521,12 @@ form textarea {
     height: 30vw;
   }
 
-  .contact {
+  .contact h1 {
     text-align: center;
   }
 
-  .contact h1 {
-    margin-left: 1vw;
+  .contact label {
+    margin-left: 2vw;
   }
 
   .contact input {
@@ -494,8 +539,13 @@ form textarea {
     margin-left: 2vw;
   }
 
+  .contact button {
+    margin-left: 9vw;
+  }
+
   .cv {
     text-align: center;
     margin-left: 2vw;
+    margin-top: 15vh;
   }
 }

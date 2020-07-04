@@ -26,7 +26,7 @@ function Projects() {
           it all means.{" "}
         </p>
         <a href="https://thecinemacritic.wordpress.com/" target="_blank">
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class="btn-xlarge btn-outline-secondary">
             Link
           </button>
         </a>
@@ -53,7 +53,7 @@ function Projects() {
           href="https://github.com/tanmichael1/Film-Review-Website"
           target="_blank"
         >
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class=" btn-xlarge  btn-outline-secondary">
             Github
           </button>
         </a>
@@ -67,7 +67,7 @@ function Projects() {
           also learned from taking Angela Yu's online course.
         </p>
         <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
-          <button type="button" class="btn btn-outline-secondary">
+          <button type="button" class="btn-xlarge btn-outline-secondary">
             Github
           </button>
         </a>

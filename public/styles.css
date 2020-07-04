@@ -91,11 +91,13 @@ body > div > a {
 p {
   color: #112d4e;
   text-align: left;
+  font-size: 1.3rem;
 }
 
 h1 {
   color: #112d4e;
   padding-bottom: 5px;
+  font-size: 4.5rem;
 }
 
 h2 {
@@ -108,6 +110,15 @@ h2 {
 .home {
   position: center;
   text-align: center;
+}
+
+.btn-xlarge {
+  padding: 18px 28px;
+  font-size: 22px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 /*
@@ -124,27 +135,33 @@ h2 {
   text-align: center;
   color: #112d4e;
   background-color: #dbe2ef;
-  padding-bottom: 1vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 .about h1 {
   color: #112d4e;
   margin: -10px auto -10px auto;
   margin-bottom: 1vh;
+  padding-bottom: 5vh;
+
+  font-size: 4.5rem;
 }
 
 .about p {
   color: #112d4e;
+  font-size: 1.3rem;
 }
 
 .contact {
   background-color: #dbe2ef;
-  padding-bottom: "5vh";
+  padding-bottom: 5vh;
 }
 
 .contact h1 {
   background-color: #dbe2ef;
-  padding-bottom: "5vh";
+  padding-bottom: 5vh;
   text-align: center;
+  font-size: 4.5rem;
 }
 
 .contact form {
@@ -155,10 +172,13 @@ h2 {
 
   background-color: #dbe2ef;
   width: 80%;
+  padding-bottom: 5vh;
 }
 
 .contact label {
   text-align: start;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .contact input {
@@ -187,28 +207,55 @@ h2 {
   color: #f9f7f7;
 }
 
+.cv img {
+  height: 50vh;
+  width: 18vw;
+}
+
+.cv h1 {
+  font-size: 4.5rem;
+}
 /*
-.cv {
-  position: center;
-  width: 100%;
-  height: 23vh;
-  text-align: center;
-  margin-left: 15vh;
+
+.cv h1 {
+  padding-bottom: 5.5vh;
 }
 */
-
-.cv {
-  margin-top: 30vh;
-}
 
 .cv button {
   background-color: #3f72af;
   color: #f9f7f7;
 }
 
+.projects {
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
 .projects img {
   margin-bottom: 1vw;
 }
+
+.projects h1 {
+  font-size: 4.5rem;
+}
+
+.projects h2 {
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  font-size: 3rem;
+}
+
+.projects p {
+  padding-bottom: 3vh;
+  font-size: 1.3rem;
+}
+
+/*
+.projects button {
+  background-color: #112d4e;
+}
+*/
 
 .footer {
   position: center;
@@ -231,6 +278,7 @@ h2 {
   background-color: #3f72af;
   margin: auto auto auto auto;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .footerIcon {
@@ -257,6 +305,7 @@ form {
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
+
 form input,
 form textarea {
   border: none;
@@ -281,16 +330,22 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 10vw;
+    font-size: 4rem;
   }
 
   .home h2 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .projects img {
     width: 65vw;
     height: 30vw;
+  }
+
+  .contact {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
   }
 
   .contact h1 {
@@ -317,8 +372,12 @@ form textarea {
   }
 
   .cv {
-    margin-top: 7vh;
     text-align: center;
+  }
+
+  .cv img {
+    height: 50vh;
+    width: 18vw;
   }
 }
 
@@ -329,7 +388,7 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 10vw;
+    font-size: 7rem;
   }
 
   .home h2 {
@@ -344,9 +403,11 @@ form textarea {
 
   .cv {
     margin-top: 7vh;
-    text-align: center;
   }
-
+  .cv img {
+    height: 50vh;
+    width: 18vw;
+  }
   .contact label {
     margin-left: 5vw;
   }
@@ -391,7 +452,7 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 10vw;
+    font-size: 7rem;
   }
 
   .home h2 {
@@ -434,6 +495,11 @@ form textarea {
     margin-top: 7vh;
     text-align: center;
   }
+
+  .cv img {
+    height: 50vh;
+    width: 18vw;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -449,7 +515,7 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 7vw;
+    font-size: 7rem;
   }
 
   .home h2 {
@@ -479,15 +545,20 @@ form textarea {
   }
 
   .cv {
-    text-align: center;
-    margin-left: 2vw;
+    margin-left: 20vw;
     margin-top: 25vh;
+  }
+
+  .cv img {
+    height: 50vh;
+    width: 25vw;
   }
 
   .cv button {
     text-align: center;
     margin-left: 2vw;
-    margin-top: 5vw;
+    margin-top: 1vw;
+    position: absolute;
   }
   .projects img {
     width: 65vw;
@@ -506,10 +577,11 @@ form textarea {
 
   .home h1 {
     position: top;
+    font-size: 7rem;
   }
 
   .home h2 {
-    font-size: 3vw;
+    font-size: 4rem;
   }
 
   .sidenav {
@@ -524,6 +596,9 @@ form textarea {
   .contact h1 {
     text-align: center;
   }
+  .contact form {
+    padding-bottom: 2vh;
+  }
 
   .contact label {
     margin-left: 2vw;
@@ -537,6 +612,7 @@ form textarea {
 
   .contact textarea {
     margin-left: 2vw;
+    margin-bottom: 3vw;
   }
 
   .contact button {
@@ -546,6 +622,25 @@ form textarea {
   .cv {
     text-align: center;
     margin-left: 2vw;
-    margin-top: 15vh;
+    margin-top: 5vh;
+  }
+
+  .cv h1 {
+    font-size: 3vw;
+  }
+
+  .cv img {
+    height: 50vh;
+    width: 18vw;
+  }
+
+  .cv button {
+    position: absolute;
+    bottom: 10vh;
+    left: 10vw;
+  }
+
+  p {
+    font-size: 1.3rem;
   }
 }

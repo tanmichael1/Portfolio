@@ -130,9 +130,6 @@ class Contact extends React.Component {
                 onChange={this.messageChange}
                 required
                 className="email-text-area form-control"
-                /*
-                rows="15"
-                cols="20" */
               />
             </div>
           </div>

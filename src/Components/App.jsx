@@ -20,7 +20,7 @@ function App() {
             <div class="col-lg">
               <Contact />
             </div>
-            <div class="col-lg" style={{ height: "20vh" }}>
+            <div class="col-lg" /* style={{ height: "20vh" }} */>
               <CV />
             </div>
           </div>

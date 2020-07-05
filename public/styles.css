@@ -171,7 +171,7 @@ h2 {
   */
 
   background-color: #dbe2ef;
-  width: 80%;
+  width: 100%;
   padding-bottom: 5vh;
 }
 
@@ -377,7 +377,7 @@ form textarea {
 
   .cv img {
     height: 50vh;
-    width: 18vw;
+    width: 80vw;
   }
 }
 
@@ -405,8 +405,8 @@ form textarea {
     margin-top: 7vh;
   }
   .cv img {
-    height: 50vh;
-    width: 18vw;
+    height: 60vh;
+    width: 48vw;
   }
   .contact label {
     margin-left: 5vw;
@@ -497,8 +497,9 @@ form textarea {
   }
 
   .cv img {
-    height: 50vh;
-    width: 18vw;
+    height: 60vh;
+    width: 48vw;
+    margin-left: 14vw;
   }
 }
 
@@ -545,13 +546,14 @@ form textarea {
   }
 
   .cv {
-    margin-left: 20vw;
-    margin-top: 25vh;
+    margin-left: 15vw;
+    margin-top: 4vh;
   }
 
   .cv img {
     height: 50vh;
     width: 25vw;
+    margin-left: 3vw;
   }
 
   .cv button {
@@ -621,17 +623,19 @@ form textarea {
 
   .cv {
     text-align: center;
-    margin-left: 2vw;
+
+    margin-left: 3vw;
     margin-top: 5vh;
   }
 
   .cv h1 {
-    font-size: 3vw;
+    font-size: 4.5rem;
   }
 
   .cv img {
     height: 50vh;
     width: 18vw;
+    margin-left: 3vw;
   }
 
   .cv button {

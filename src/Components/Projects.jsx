@@ -62,6 +62,7 @@ function Projects() {
         <br></br>
 
         <h2>Personal Portfolio</h2>
+        <img src={"./images/Portfolio.JPG"} />
         <p>
           This website is also a project that I created using React, which I've
           also learned from taking Angela Yu's online course.

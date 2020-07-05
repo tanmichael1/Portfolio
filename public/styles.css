@@ -155,6 +155,7 @@ h2 {
 .contact {
   background-color: #dbe2ef;
   padding-bottom: 5vh;
+  text-align: center;
 }
 
 .contact h1 {
@@ -176,9 +177,9 @@ h2 {
 }
 
 .contact label {
-  text-align: start;
+  text-align: center;
   padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 }
 
 .contact input {
@@ -190,10 +191,12 @@ h2 {
   text-align: center;
   */
   background-color: #f9f7f7;
+  margin-bottom: 2vh;
 }
 
 .contact textarea {
   width: 80%;
+  padding-bottom: 4vh;
   /*
   margin-left: 3vw;
   position: center;
@@ -205,15 +208,29 @@ h2 {
 .contact button {
   background-color: #3f72af;
   color: #f9f7f7;
+  text-align: center;
+  margin-top: 2.5vh;
 }
 
-.cv img {
-  height: 50vh;
-  width: 18vw;
+.cv {
+  margin-top: 5vh;
+  padding-bottom: 0vh;
+}
+
+.cv form {
+  /*
+  position: center;
+  text-align: center;
+  */
+
+  background-color: #dbe2ef;
+
+  margin-bottom: 5vh;
 }
 
 .cv h1 {
   font-size: 4.5rem;
+  padding-bottom: 5vh;
 }
 /*
 
@@ -222,9 +239,16 @@ h2 {
 }
 */
 
+.cv img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
 .cv button {
   background-color: #3f72af;
   color: #f9f7f7;
+  margin-top: 2vh;
 }
 
 .projects {
@@ -343,21 +367,26 @@ form textarea {
   }
 
   .contact {
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
     padding-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
   }
-
+  .contact form {
+    padding-bottom: 3vh;
+  }
   .contact h1 {
     margin-left: 1vw;
   }
 
   .contact label {
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
     margin-left: 5vw;
   }
 
   .contact input {
-    width: 80%;
+    width: 85%;
     margin-left: 5vw;
 
     background-color: #f9f7f7;
@@ -365,30 +394,34 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
+    margin-bottom: 0vh;
+    width: 85%;
   }
 
   .contact button {
-    margin-left: 27vw;
+    margin-top: -2vh;
   }
 
   .cv {
     text-align: center;
+
+    margin-left: 3vw;
+    margin-top: 5vh;
   }
 
   .cv img {
-    height: 50vh;
-    width: 80vw;
+    margin-left: 9vw;
   }
 }
 
 /*Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .home {
-    padding-top: 10vw;
+    padding-top: 8vw;
   }
 
   .home h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .home h2 {
@@ -397,17 +430,14 @@ form textarea {
 
   .backgroundImage {
     background: url(./images/Laptop.jpg);
-    height: 70vw;
+    height: 100vw;
     background-position: 40% 40%;
   }
 
-  .cv {
-    margin-top: 7vh;
+  .contact form {
+    padding-bottom: 3vh;
   }
-  .cv img {
-    height: 60vh;
-    width: 48vw;
-  }
+
   .contact label {
     margin-left: 5vw;
   }
@@ -417,7 +447,8 @@ form textarea {
   }
 
   .contact input {
-    width: 80%;
+    width: 85%;
+
     margin-left: 5vw;
 
     background-color: #f9f7f7;
@@ -425,10 +456,23 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
+    margin-bottom: 0vw;
+    width: 85%;
   }
 
   .contact button {
-    margin-left: 23vw;
+    margin-top: -2vh;
+  }
+
+  .cv {
+    text-align: center;
+
+    margin-left: 3vw;
+    margin-top: 5vh;
+  }
+
+  .cv img {
+    margin-left: 7vw;
   }
 
   .sidenav {
@@ -470,8 +514,14 @@ form textarea {
     height: 30vw;
   }
 
+  .contact form {
+    padding-bottom: 2.5vh;
+  }
+
   .contact label {
-    margin-left: 5vw;
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
   }
 
   .contact h1 {
@@ -479,7 +529,7 @@ form textarea {
   }
 
   .contact input {
-    width: 80%;
+    width: 85%;
     margin-left: 5vw;
 
     background-color: #f9f7f7;
@@ -487,19 +537,22 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
+    margin-bottom: 0vw;
+    width: 85%;
   }
+
   .contact button {
-    margin-left: 27vw;
+    margin-top: -2vh;
   }
+
   .cv {
-    margin-top: 7vh;
     text-align: center;
+
+    margin-top: 5vh;
   }
 
   .cv img {
-    height: 60vh;
-    width: 48vw;
-    margin-left: 14vw;
+    margin-left: 7vw;
   }
 }
 
@@ -529,9 +582,12 @@ form textarea {
   .contact h1 {
     margin-left: 1vw;
   }
+  .contact form {
+    padding-bottom: 2.5vh;
+  }
 
   .contact input {
-    width: 80%;
+    width: 85%;
     margin-left: 2vw;
 
     background-color: #f9f7f7;
@@ -539,29 +595,34 @@ form textarea {
 
   .contact textarea {
     margin-left: 2vw;
+
+    width: 85%;
+    margin-bottom: 0vh;
   }
 
   .contact button {
-    margin-left: 11vw;
-  }
-
-  .cv {
-    margin-left: 15vw;
-    margin-top: 4vh;
+    margin-top: -3.5vh;
   }
 
   .cv img {
-    height: 50vh;
-    width: 25vw;
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
 
-  .cv button {
+  .cv {
     text-align: center;
-    margin-left: 2vw;
-    margin-top: 1vw;
-    position: absolute;
+
+    margin-left: 3vw;
+    margin-top: 5vh;
   }
+
+  /*
+
+  .cv button {
+    margin-top: 1vh;
+    margin-left: 0vw;
+  }
+  */
+
   .projects img {
     width: 65vw;
     height: 30vw;
@@ -586,6 +647,10 @@ form textarea {
     font-size: 4rem;
   }
 
+  .about h1 {
+    font-size: 4.5rem;
+  }
+
   .sidenav {
     visibility: visible;
   }
@@ -598,50 +663,58 @@ form textarea {
   .contact h1 {
     text-align: center;
   }
+
+  /*change with vw */
   .contact form {
-    padding-bottom: 2vh;
+    padding-bottom: 2.5vh;
   }
 
   .contact label {
-    margin-left: 2vw;
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
   }
 
   .contact input {
-    width: 80%;
+    width: 85%;
     margin-left: 2vw;
     background-color: #f9f7f7;
   }
 
   .contact textarea {
+    width: 85%;
     margin-left: 2vw;
+    /*
     margin-bottom: 3vw;
+    */
+    margin-bottom: 8vh;
   }
 
+  /*
   .contact button {
     margin-left: 9vw;
   }
+  */
 
   .cv {
     text-align: center;
 
-    margin-left: 3vw;
+    margin-left: 2.5vw;
     margin-top: 5vh;
+  }
+
+  .cv img {
+    margin-left: 2.5vw;
   }
 
   .cv h1 {
     font-size: 4.5rem;
   }
 
-  .cv img {
-    height: 50vh;
-    width: 18vw;
-    margin-left: 3vw;
-  }
-
   .cv button {
-    position: absolute;
-    bottom: 10vh;
-    left: 10vw;
+    margin-top: 3vh;
+
+    margin-left: 0vw;
   }
 
   p {

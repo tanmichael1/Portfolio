@@ -37,5 +37,7 @@ This project was created with:
 8. Add unsplash image for "Home" section: DONE
 9. Put contact and CV sections next to each other: DONE
 10. Make Contact Me section functional, format it, and make it able to send an email: DONE
-11. Add bootstrap margin/padding
-12. Make mobile accessible
+11. Add bootstrap margin/padding: DONE
+12. Make mobile accessible: DONE
+13. Deploy on Heroku: DONE
+14. Rename heroku site: DONE

@@ -10,10 +10,13 @@ function CV() {
         </div>
         <div style={{ paddingBottom: "2vh" }}>
           <a
-            target="_blank"
             href="https://drive.google.com/open?id=1AVsRN4cylEYVA1_xmsVs55wz63l4eLuR"
+            target="_blank"
+            rel="noopener"
           >
-            <button class="btn btn-lg active">View CV</button>
+            <button type="button" class="btn btn-lg active">
+              View CV
+            </button>
           </a>
         </div>
       </form>

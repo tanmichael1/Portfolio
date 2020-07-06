@@ -9,6 +9,9 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "emailjs-com": "^2.4.1",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
@@ -18,8 +21,9 @@
     "sweetalert2": "^9.15.2"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "devstart": "react-scripts start",
+    "start": "node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

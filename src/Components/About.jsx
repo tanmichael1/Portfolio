@@ -5,8 +5,6 @@ function About() {
     <div id="about" className="about">
       <div style={{ width: "65vw", margin: "auto" }}>
         <h1>About</h1>
-        {/* py-4 */}
-
         <p>
           I’m in my third and final year of a Bachelor of Science degree at
           Victoria University, majoring in both computer science and computer

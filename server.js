@@ -1,4 +1,3 @@
-/*
 const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
@@ -17,14 +16,11 @@ app.get("/*", function (req, res) {
   //res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.listen(port);
-*/
+//app.listen(port);
 
-/*
 app.listen(port, () => {
-  console.log("Express server listening on port");
+  console.log("Express server listening on port", port);
 });
-*/
 
 /*
   "scripts": {
@@ -34,6 +30,8 @@ app.listen(port, () => {
     "eject": "react-scripts eject"
   },
   */
+
+/*
 
 const path = require("path");
 const express = require("express");
@@ -48,3 +46,4 @@ app.listen(port, () => {
   console.log("Server is up!");
   console.log("server started " + port);
 });
+*/

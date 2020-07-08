@@ -52,6 +52,7 @@ app.listen(port, () => {
 });
 */
 
+/*
 const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
@@ -68,3 +69,24 @@ app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 app.listen(port);
+*/
+
+var express = require("express");
+var app = express();
+app.use(express.static(__dirname + "/"));
+
+app.listen(process.env.PORT || 8080, () => {
+  console.log("Server is up!");
+  console.log("server started ");
+});
+
+/*
+
+ "scripts": {
+    "build": "react-scripts build",
+    "devstart": "react-scripts start",
+    "start": "node server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  */

@@ -11,3 +11,5 @@ ReactDOM.render(
 
   document.getElementById("root")
 );
+
+//<script type="module" src="app.js"></script>;

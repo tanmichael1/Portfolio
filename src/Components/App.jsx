@@ -15,12 +15,12 @@ function App() {
       <About />
       <Projects />
       <div style={{ backgroundColor: "#dbe2ef", paddingBottom: "5vh" }}>
-        <div class="container" style={{ backgroundColor: "#dbe2ef" }}>
-          <div class="row" style={{ backgroundColor: "#dbe2ef" }}>
-            <div class="col-lg-6">
+        <div className="container" style={{ backgroundColor: "#dbe2ef" }}>
+          <div className="row" style={{ backgroundColor: "#dbe2ef" }}>
+            <div className="col-lg-6">
               <Contact />
             </div>
-            <div class="col-lg-6" /* style={{ height: "20vh" }} */>
+            <div className="col-lg-6" /* style={{ height: "20vh" }} */>
               <CV />
             </div>
           </div>

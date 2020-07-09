@@ -5,8 +5,8 @@ function CV() {
     <div id="cv" className="cv">
       <h1>Access CV</h1>
       <form action="">
-        <div class="row">
-          <img class="cv" src={"./images/CV.JPG"} />
+        <div className="row">
+          <img className="cv" src={"./images/CV.JPG"} />
         </div>
         <div style={{ paddingBottom: "2vh" }}>
           <a
@@ -14,7 +14,7 @@ function CV() {
             target="_blank"
             rel="noopener"
           >
-            <button type="button" class="btn btn-lg active">
+            <button type="button" className="btn btn-lg active">
               View CV
             </button>
           </a>

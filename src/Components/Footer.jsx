@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer">
       <div className="footerIcon">
         <a
-          class="link"
+          className="link"
           href="https://www.facebook.com/profile.php?id=100004455215502"
           target="_blank"
           rel="noopener noreferrer"
@@ -19,7 +19,7 @@ function Footer() {
           <IoLogoFacebook size="2.5rem" color="white" />
         </a>
         <a
-          class="link"
+          className="link"
           href="https://www.linkedin.com/in/michael-tan-287ba4192/"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,7 +27,7 @@ function Footer() {
           <IoLogoLinkedin size="2.5rem" color="white" />
         </a>
         <a
-          class="link"
+          className="link"
           href="https://github.com/tanmichael1"
           target="_blank"
           rel="noopener noreferrer"

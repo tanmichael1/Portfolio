@@ -138,7 +138,7 @@ class Contact extends React.Component {
           <div>
             <button
               type="submit"
-              class="btn btn-lg active"
+              className="btn btn-lg active"
               /*class="btn btn-primary btn-lg active"*/
               onClick={() => this.handleSubmit}
             >

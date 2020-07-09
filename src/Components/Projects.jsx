@@ -28,7 +28,7 @@ function Projects() {
           learned how to code.
         </p>
         <a href="https://thecinemacritic.wordpress.com/" target="_blank">
-          <button type="button" class="btn-xlarge btn-outline-secondary">
+          <button type="button" className="btn-xlarge btn-outline-secondary">
             Link
           </button>
         </a>
@@ -60,7 +60,7 @@ function Projects() {
           href="https://github.com/tanmichael1/Film-Review-Website"
           target="_blank"
         >
-          <button type="button" class=" btn-xlarge  btn-outline-secondary">
+          <button type="button" className=" btn-xlarge  btn-outline-secondary">
             Github
           </button>
         </a>
@@ -91,7 +91,7 @@ function Projects() {
           satisfying and rewarding.{" "}
         </p>
         <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
-          <button type="button" class="btn-xlarge btn-outline-secondary">
+          <button type="button" className="btn-xlarge btn-outline-secondary">
             Github
           </button>
         </a>

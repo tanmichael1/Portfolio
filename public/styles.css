@@ -97,6 +97,7 @@ p {
 h1 {
   color: #112d4e;
   padding-bottom: 5px;
+
   font-size: 4.5rem;
 }
 
@@ -640,7 +641,9 @@ form textarea {
 
   .home h1 {
     position: top;
+    /*
     font-size: 7rem;
+    */
   }
 
   .home h2 {

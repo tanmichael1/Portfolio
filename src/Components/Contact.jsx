@@ -40,37 +40,40 @@ class Contact extends React.Component {
     this.sendFeedback(templateId, {
       message: this.state.feedback,
       name: this.state.name,
+      subject: this.state.subject,
       email: this.state.email,
     });
   };
 
   //Custom EmailJS method
-  sendFeedback = (templateId, variables) => {
-    Swal.fire({
-      title: "Email Successfully Sent",
-      // text only here for testing without using up 200 message cap
-      text: `message: ${variables.message}, name: ${variables.name}, email: ${variables.email}`,
-      icon: "success",
-    });
 
-    // commented out to stop using up 200 message cap
-    // window.emailjs
-    //   .send("gmail", templateId, variables)
-    //   .then((res) => {
-    //     // Email successfully sent alert
-    //     Swal.fire({
-    //       title: "Email Successfully Sent",
-    //       icon: "success",
-    //     });
-    //   })
-    //   // Email Failed to send Error alert
-    //   .catch((err) => {
-    //     Swal.fire({
-    //       title: "Email Failed to Send",
-    //       icon: "error",
-    //     });
-    //     console.error("Email Error:", err);
-    //   });
+  sendFeedback = (templateId, variables) => {
+    //commented out to stop using up 200 message cap
+    window.emailjs
+      .send("gmail", templateId, variables)
+      .then((res) => {
+        // Email successfully sent alert
+        Swal.fire({
+          title: "Email Successfully Sent",
+          icon: "success",
+        });
+      })
+      // Email Failed to send Error alert
+      .catch((err) => {
+        Swal.fire({
+          title: "Email Failed to Send",
+          icon: "error",
+        });
+        console.error("Email Error:", err);
+      });
+
+    // Use this instead if testing
+    // Swal.fire({
+    //   title: "Email Successfully Sent",
+    //   // text only here for testing without using up 200 message cap
+    //   text: `message: ${variables.message}, name: ${variables.name}, subject: ${variables.subject}, email: ${variables.email}`,
+    //   icon: "success",
+    // });
   };
 
   render() {

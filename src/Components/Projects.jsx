@@ -52,7 +52,7 @@ function Projects() {
 
         <p>
           The site is very much a work in progress, but it’s nonetheless
-          something that I have been creating myself. Through this I’m also I’m
+          something that I have been creating myself. Through this I’m also
           challenging my development skills, and I’m improving myself as a coder
           and web developer.
         </p>

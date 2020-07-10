@@ -18,7 +18,7 @@ Dark blue: #112D4E
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 10vw; /* Set the width of the sidebar */
+  width: 12vw; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -32,7 +32,7 @@ Dark blue: #112D4E
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #112d4e;
   display: block;
@@ -122,15 +122,6 @@ h2 {
   border-radius: 8px;
 }
 
-/*
-.home h1 {
-  font-size: 9vw;
-}
-.home h2 {
-  font-size: 3vw;
-}
-*/
-
 .about {
   position: center;
   text-align: center;
@@ -155,7 +146,8 @@ h2 {
 
 .contact {
   background-color: #dbe2ef;
-  padding-bottom: 5vh;
+  /*
+  padding-bottom: 5vh;*/
   text-align: center;
 }
 
@@ -164,6 +156,7 @@ h2 {
   padding-bottom: 5vh;
   text-align: center;
   font-size: 4.5rem;
+  margin-top: 5vh;
 }
 
 .contact form {
@@ -174,7 +167,20 @@ h2 {
 
   background-color: #dbe2ef;
   width: 100%;
-  padding-bottom: 5vh;
+  /*padding-bottom: 5vh;*/
+  min-height: 75vh;
+  max-height: 75vh;
+}
+
+.contact1stHalf {
+  min-height: 49vh;
+  max-height: 49vh;
+}
+
+.contact2ndHalf {
+  min-height: 26vh;
+  max-height: 26vh;
+  padding-top: 14vh;
 }
 
 .contact label {
@@ -192,6 +198,7 @@ h2 {
   text-align: center;
   */
   background-color: #f9f7f7;
+
   margin-bottom: 2vh;
 }
 
@@ -210,11 +217,11 @@ h2 {
   background-color: #3f72af;
   color: #f9f7f7;
   text-align: center;
-  margin-top: 2.5vh;
+
+  /*margin-top: 2.5vh;*/
 }
 
 .cv {
-  margin-top: 5vh;
   padding-bottom: 0vh;
 }
 
@@ -225,13 +232,29 @@ h2 {
   */
 
   background-color: #dbe2ef;
+  padding-top: 0vh;
+  /*
+  margin-bottom: 5vh; */
+  padding-bottom: 0vh;
+  min-height: 75vh;
+  max-height: 75vh;
+}
 
-  margin-bottom: 5vh;
+.cv1stHalf {
+  min-height: 49vh;
+  max-height: 49vh;
+}
+
+.cv2ndHalf {
+  min-height: 26vh;
+  max-height: 26vh;
+  padding-top: 15vh;
 }
 
 .cv h1 {
+  margin-top: 5vh;
   font-size: 4.5rem;
-  padding-bottom: 5vh;
+  padding-bottom: 3vh;
 }
 /*
 
@@ -244,12 +267,16 @@ h2 {
   width: 80%;
   height: auto;
   object-fit: cover;
+  padding-bottom: 0vh;
+  margin-left: 0vw;
+  /*padding-bottom: 4vh; */
 }
 
 .cv button {
   background-color: #3f72af;
   color: #f9f7f7;
-  margin-top: 2vh;
+  margin-top: 0vh;
+  /* margin-top: 2vh;*/
 }
 
 .projects {
@@ -355,11 +382,11 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .home h2 {
-    font-size: 5vw;
+    font-size: 2rem;
   }
 
   .projects img {
@@ -367,14 +394,6 @@ form textarea {
     height: 30vw;
   }
 
-  .contact {
-    padding-bottom: 0vh;
-    padding-top: 5vh;
-    margin-bottom: 0vh;
-  }
-  .contact form {
-    padding-bottom: 3vh;
-  }
   .contact h1 {
     margin-left: 1vw;
   }
@@ -395,12 +414,8 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
-    margin-bottom: 0vh;
-    width: 85%;
-  }
 
-  .contact button {
-    margin-top: -2vh;
+    width: 85%;
   }
 
   .cv {
@@ -426,7 +441,7 @@ form textarea {
   }
 
   .home h2 {
-    font-size: 4vw;
+    font-size: 3rem;
   }
 
   .backgroundImage {
@@ -436,7 +451,9 @@ form textarea {
   }
 
   .contact form {
+    /*
     padding-bottom: 3vh;
+    */
   }
 
   .contact label {
@@ -457,12 +474,13 @@ form textarea {
 
   .contact textarea {
     margin-left: 5vw;
-    margin-bottom: 0vw;
+
     width: 85%;
   }
 
   .contact button {
-    margin-top: -2vh;
+    /*
+    margin-top: -2vh;*/
   }
 
   .cv {
@@ -501,7 +519,7 @@ form textarea {
   }
 
   .home h2 {
-    font-size: 4vw;
+    font-size: 3rem;
   }
 
   .backgroundImage {
@@ -553,7 +571,7 @@ form textarea {
   }
 
   .cv img {
-    margin-left: 7vw;
+    width: 50%;
   }
 }
 
@@ -574,7 +592,7 @@ form textarea {
   }
 
   .home h2 {
-    font-size: 3vw;
+    font-size: 3rem;
   }
 
   .contact label {
@@ -607,6 +625,7 @@ form textarea {
 
   .cv img {
     margin-left: 4vw;
+    width: 70%;
   }
 
   .cv {
@@ -689,7 +708,8 @@ form textarea {
     /*
     margin-bottom: 3vw;
     */
-    margin-bottom: 8vh;
+    /*
+    margin-bottom: 8vh;*/
   }
 
   /*
@@ -702,11 +722,11 @@ form textarea {
     text-align: center;
 
     margin-left: 2.5vw;
-    margin-top: 5vh;
   }
 
   .cv img {
     margin-left: 2.5vw;
+    width: 75%;
   }
 
   .cv h1 {

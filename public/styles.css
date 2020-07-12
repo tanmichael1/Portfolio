@@ -167,19 +167,19 @@ h2 {
 
   background-color: #dbe2ef;
   width: 100%;
-  /*padding-bottom: 5vh;*/
-  min-height: 75vh;
-  max-height: 75vh;
+  /*padding-bottom: 5vh; 75vh*/
+  min-height: 100vh;
+  max-height: 200vh;
 }
 
 .contact1stHalf {
-  min-height: 49vh;
-  max-height: 49vh;
+  min-height: 70vh;
+  max-height: 160vh;
 }
 
 .contact2ndHalf {
-  min-height: 26vh;
-  max-height: 26vh;
+  min-height: 30vh;
+  max-height: 40vh;
   padding-top: 14vh;
 }
 
@@ -236,18 +236,18 @@ h2 {
   /*
   margin-bottom: 5vh; */
   padding-bottom: 0vh;
-  min-height: 75vh;
-  max-height: 75vh;
+  min-height: 100vh;
+  max-height: 200vh;
 }
 
 .cv1stHalf {
-  min-height: 49vh;
-  max-height: 49vh;
+  min-height: 70vh;
+  max-height: 160vh;
 }
 
 .cv2ndHalf {
-  min-height: 26vh;
-  max-height: 26vh;
+  min-height: 30vh;
+  max-height: 40vh;
   padding-top: 15vh;
 }
 
@@ -314,7 +314,8 @@ h2 {
   color: white;
   text-align: center;
   width: 100%;
-  padding: 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   margin: -10px auto -100px auto;
   bottom: 0;
   height: 2.5rem;
@@ -386,7 +387,7 @@ form textarea {
   }
 
   .home h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .projects img {
@@ -437,11 +438,11 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .home h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .backgroundImage {
@@ -515,11 +516,11 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .home h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .backgroundImage {
@@ -588,11 +589,11 @@ form textarea {
   }
 
   .home h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .home h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact label {

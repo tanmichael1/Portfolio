@@ -3,7 +3,7 @@ import React from "react";
 function CV() {
   return (
     <div id="cv" className="cv">
-      <h1>Access CV</h1>
+      <h1>View CV</h1>
       <form className="cv" action="">
         <div className=" cv1stHalf">
           <img

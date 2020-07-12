@@ -22,13 +22,11 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "devstart": "react-scripts start",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm run build"
   },
-  "proxy": "http://localhost:3000/",
   "eslintConfig": {
     "extends": "react-app"
   },

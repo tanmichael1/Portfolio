@@ -73,9 +73,17 @@ app.listen(port);
 
 var express = require("express");
 var app = express();
-app.use(express.static(__dirname + "/"));
+app.use(express.static(__dirname + "/static"));
 
-app.listen(process.env.PORT || 8080, () => {
+const publicPath = path.join(__dirname, "..", "my-app", "public");
+app.use(express.static(publicPath));
+
+app.use(express.static(publicPath));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(publicPath, "index.html"));
+});
+
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is up!");
   console.log("server started ");
 });
@@ -85,7 +93,7 @@ app.listen(process.env.PORT || 8080, () => {
  "scripts": {
     "build": "react-scripts build",
     "devstart": "react-scripts start",
-    "start": "node server.js",
+    "start": "node server.js", react-scripts start
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  IoLogoLinkedin,
-  IoLogoFacebook,
-  IoLogoGithub,
-  IoIosMail,
-} from "react-icons/io";
+import { IoLogoLinkedin, IoLogoFacebook, IoLogoGithub } from "react-icons/io";
 
 function Footer() {
   return (

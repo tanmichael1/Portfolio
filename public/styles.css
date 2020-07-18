@@ -149,7 +149,6 @@ h2 {
   /*
   padding-bottom: 5vh;*/
   text-align: center;
-  margin-left: 3vw;
 }
 
 .contact h1 {
@@ -171,6 +170,7 @@ h2 {
   /*padding-bottom: 5vh; 75vh*/
   min-height: 100vh;
   max-height: 200vh;
+  margin-left: 3vw;
 }
 
 .contact1stHalf {
@@ -452,12 +452,6 @@ form textarea {
     background-position: 40% 40%;
   }
 
-  .contact form {
-    /*
-    padding-bottom: 3vh;
-    */
-  }
-
   .contact label {
     margin-left: 5vw;
   }
@@ -478,11 +472,6 @@ form textarea {
     margin-left: 5vw;
 
     width: 85%;
-  }
-
-  .contact button {
-    /*
-    margin-top: -2vh;*/
   }
 
   .cv {
@@ -607,9 +596,12 @@ form textarea {
 
   .contact h1 {
     margin-left: 1vw;
+    font-size: 3.5rem;
   }
   .contact form {
     padding-bottom: 2.5vh;
+    margin-left: 9vw;
+    width: 90%;
   }
 
   .contact input {
@@ -655,7 +647,7 @@ form textarea {
   }
 
   .cv h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   /*
@@ -713,11 +705,14 @@ form textarea {
 
   .contact h1 {
     text-align: center;
+    font-size: 4.5rem;
   }
 
   /*change with vw */
   .contact form {
     padding-bottom: 2.5vh;
+    margin-left: 3vw;
+    width: 100%;
   }
 
   .contact label {
@@ -807,6 +802,8 @@ form textarea {
 
   .contact h1 {
     text-align: center;
+    margin-left: 5vw;
+    font-size: 4.5rem;
   }
 
   /*change with vw */

@@ -149,6 +149,7 @@ h2 {
   /*
   padding-bottom: 5vh;*/
   text-align: center;
+  margin-left: 3vw;
 }
 
 .contact h1 {
@@ -505,7 +506,7 @@ form textarea {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .sidenav {
     visibility: hidden;
   }
@@ -577,7 +578,7 @@ form textarea {
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .backgroundImage {
     background: url(./images/Laptop.jpg);
     height: 100vh;
@@ -598,7 +599,12 @@ form textarea {
 
   .contact label {
     margin-left: 2vw;
+
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
   }
+
   .contact h1 {
     margin-left: 1vw;
   }
@@ -624,16 +630,32 @@ form textarea {
     margin-top: -3.5vh;
   }
 
+  /*
+  .contact button {
+    margin-left: 9vw;
+  }
+  */
+
   .cv img {
     margin-left: 4vw;
     width: 70%;
+
+    /*
+    margin-left: 2.5vw;
+    width: 75%;
+    */
   }
 
   .cv {
     text-align: center;
 
     margin-left: 3vw;
+    /*margin-left: 2.5vw;*/
     margin-top: 5vh;
+  }
+
+  .cv h1 {
+    font-size: 4.5rem;
   }
 
   /*
@@ -644,6 +666,12 @@ form textarea {
   }
   */
 
+  .cv button {
+    margin-top: 3vh;
+
+    margin-left: 0vw;
+  }
+
   .projects img {
     width: 65vw;
     height: 30vw;
@@ -651,7 +679,8 @@ form textarea {
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1400px) {
+
+@media only screen and (min-width: 1200px) {
   .backgroundImage {
     background: url(./images/Laptop.jpg);
     background-size: 150vw;
@@ -662,11 +691,105 @@ form textarea {
   .home h1 {
     position: top;
 
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .home h2 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  .about h1 {
+    font-size: 4.5rem;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .projects img {
+    width: 65vw;
+    height: 30vw;
+  }
+
+  .contact h1 {
+    text-align: center;
+  }
+
+  /*change with vw */
+  .contact form {
+    padding-bottom: 2.5vh;
+  }
+
+  .contact label {
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .contact input {
+    width: 85%;
+    margin-left: 2vw;
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    width: 85%;
+    margin-left: 2vw;
+    /*
+    margin-bottom: 3vw;
+    */
+    /*
+    margin-bottom: 8vh;*/
+  }
+
+  /*
+  .contact button {
+    margin-left: 9vw;
+  }
+  */
+
+  .cv {
+    text-align: center;
+
+    margin-left: 2.5vw;
+  }
+
+  .cv img {
+    margin-left: 2.5vw;
+    width: 75%;
+  }
+
+  .cv h1 {
+    font-size: 4.5rem;
+  }
+
+  .cv button {
+    margin-top: 3vh;
+
+    margin-left: 0vw;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .backgroundImage {
+    background: url(./images/Laptop.jpg);
+    background-size: 150vw;
+    height: 100vh;
+    background-position: 40% 40%;
+  }
+
+  .home h1 {
+    position: top;
+
+    font-size: 6rem;
+  }
+
+  .home h2 {
+    font-size: 3rem;
   }
 
   .about h1 {

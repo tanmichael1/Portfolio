@@ -616,7 +616,8 @@ form {
 
   .contact form {
     padding-bottom: 2.5vh;
-    margin-left: 8vw;
+    /*
+    margin-left: 8vw; */
     width: 90%;
   }
 

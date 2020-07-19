@@ -43,15 +43,6 @@ Dark blue: #112D4E
   color: #3f72af;
 }
 
-/* Style page content */
-/*
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-/*
-  padding: 0px 10px;
-}
-*/
-
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -135,8 +126,7 @@ h2 {
 
 .contact {
   background-color: #dbe2ef;
-  /*
-  padding-bottom: 5vh;*/
+
   text-align: center;
 }
 
@@ -149,14 +139,9 @@ h2 {
 }
 
 .contact form {
-  /*
-  position: center;
-  text-align: center;
-  */
-
   background-color: #dbe2ef;
   width: 100%;
-  /*padding-bottom: 5vh; 75vh*/
+
   min-height: 100vh;
   max-height: 200vh;
   margin-left: 3vw;
@@ -182,11 +167,6 @@ h2 {
 .contact input {
   width: 80%;
 
-  /*
-  margin-left: 6vw;
-  position: center;
-  text-align: center;
-  */
   background-color: #f9f7f7;
 
   margin-bottom: 2vh;
@@ -195,11 +175,7 @@ h2 {
 .contact textarea {
   width: 80%;
   padding-bottom: 4vh;
-  /*
-  margin-left: 3vw;
-  position: center;
-  text-align: center;
-  */
+
   background-color: #f9f7f7;
 }
 
@@ -207,8 +183,6 @@ h2 {
   background-color: #3f72af;
   color: #f9f7f7;
   text-align: center;
-
-  /*margin-top: 2.5vh;*/
 }
 
 .cv {
@@ -244,14 +218,12 @@ h2 {
   object-fit: cover;
   padding-bottom: 0vh;
   margin-left: 0vw;
-  /*padding-bottom: 4vh; */
 }
 
 .cv button {
   background-color: #3f72af;
   color: #f9f7f7;
   margin-top: 0vh;
-  /* margin-top: 2vh;*/
 }
 
 .projects {
@@ -277,12 +249,6 @@ h2 {
   padding-bottom: 3vh;
   font-size: 1.3rem;
 }
-
-/*
-.projects button {
-  background-color: #112d4e;
-}
-*/
 
 .footer {
   position: center;
@@ -316,19 +282,15 @@ h2 {
 }
 
 .projects {
-  /*background-color: #2E9AFE; */
   position: center;
   text-align: center;
 }
 
 form {
   position: relative;
-  /*margin: 30px auto 10px auto;*/
+
   background: #fff;
-  /*
-  padding: 15px auto;
-  padding-bottom: 10px;
-  */
+
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
@@ -558,7 +520,7 @@ form {
   }
   .contact form {
     padding-bottom: 2.5vh;
-    margin-left: 9vw;
+    margin-left: 6.5vw;
     width: 90%;
   }
 
@@ -583,12 +545,18 @@ form {
   .cv img {
     margin-left: 4vw;
     width: 70%;
+
+    /*
+    margin-left: 2.5vw;
+    width: 75%;
+    */
   }
 
   .cv {
     text-align: center;
 
     margin-left: 3vw;
+    /*margin-left: 2.5vw;*/
     margin-top: 5vh;
   }
 
@@ -598,6 +566,8 @@ form {
 
   .cv button {
     margin-top: 3vh;
+
+    margin-left: 0vw;
   }
 
   .projects img {

@@ -88,7 +88,7 @@ function Projects() {
           improve it, as well as solve problems that I encountered on the way.
           Throughout this whole development process, I have been improving my
           coding skills, so I have found the learning experience to be quite
-          satisfying and rewarding.{" "}
+          satisfying and rewarding.
         </p>
         <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
           <button type="button" className="btn-xlarge btn-outline-secondary">

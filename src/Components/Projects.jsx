@@ -8,7 +8,7 @@ function Projects() {
 
         <h2>The Cinema Critic (Wordpress)</h2>
 
-        <img src={"./images/Wordpress.JPG"} />
+        <img src={"./images/Wordpress.JPG"} alt="Wordpress Site preview" />
         <p>
           This is a movie review website which I created as a school personal
           project back in 2014 as part of Year 10’s curriculum. Initially it was
@@ -36,7 +36,7 @@ function Projects() {
         <br></br>
 
         <h2>The Cinema Critic (Node.js)</h2>
-        <img src={"./images/Appjs.jpg"} />
+        <img src={"./images/Appjs.jpg"} alt="Node.js preview" />
         <p>
           I created this website using JavaScript, CSS and HTML while I was
           taking Angela Yu’s Web Development online course. I’m also using
@@ -69,7 +69,7 @@ function Projects() {
         <br></br>
 
         <h2>Personal Portfolio</h2>
-        <img src={"./images/Portfolio.JPG"} />
+        <img src={"./images/Portfolio.JPG"} alt="Personal Portfolio preview" />
         <p>
           This website has been my main project these past months. I have
           created this mainly using React, along with JavaScript, CSS and HTML.

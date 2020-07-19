@@ -10,6 +10,7 @@ function CV() {
             style={{ marginLeft: "0vw" }}
             className="cv"
             src={"./images/CV.JPG"}
+            alt={"CV Preview"}
           />
         </div>
         <div className=" cv2ndHalf" style={{ paddingBottom: "2vh" }}>

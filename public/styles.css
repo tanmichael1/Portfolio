@@ -44,20 +44,11 @@ Dark blue: #112D4E
 }
 
 /* Style page content */
+/*
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 /*
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
+  padding: 0px 10px;
 }
 */
 
@@ -83,11 +74,6 @@ body > div > a {
   background-position: 41% 40%;
 }
 
-.backgroundImage img {
-  background: url(./images/Laptop.jpg);
-  float: right center;
-}
-
 p {
   color: #112d4e;
   text-align: left;
@@ -105,12 +91,15 @@ h2 {
   color: #112d4e;
   margin-bottom: 0px;
   margin-block-end: 0px;
-  padding-bottom: 5px;
 }
 
 .home {
   position: center;
   text-align: center;
+}
+
+.home h1 {
+  font-size: 4.5rem;
 }
 
 .btn-xlarge {
@@ -132,7 +121,7 @@ h2 {
 }
 .about h1 {
   color: #112d4e;
-  margin: -10px auto -10px auto;
+
   margin-bottom: 1vh;
   padding-bottom: 5vh;
 
@@ -227,16 +216,7 @@ h2 {
 }
 
 .cv form {
-  /*
-  position: center;
-  text-align: center;
-  */
-
   background-color: #dbe2ef;
-  padding-top: 0vh;
-  /*
-  margin-bottom: 5vh; */
-  padding-bottom: 0vh;
   min-height: 100vh;
   max-height: 200vh;
 }
@@ -257,12 +237,6 @@ h2 {
   font-size: 4.5rem;
   padding-bottom: 3vh;
 }
-/*
-
-.cv h1 {
-  padding-bottom: 5.5vh;
-}
-*/
 
 .cv img {
   width: 80%;
@@ -345,30 +319,18 @@ h2 {
   /*background-color: #2E9AFE; */
   position: center;
   text-align: center;
-
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 form {
   position: relative;
-  margin: 30px auto 10px auto;
+  /*margin: 30px auto 10px auto;*/
   background: #fff;
+  /*
   padding: 15px auto;
   padding-bottom: 10px;
+  */
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
-}
-
-form input,
-form textarea {
-  border: none;
-
-  padding: 4px;
-  outline: none;
-  font-size: 1.2em;
-  font-family: inherit;
-  resize: none;
 }
 
 /*Extra small*/
@@ -378,13 +340,13 @@ form textarea {
   }
 
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     height: 70vw;
     background-position: 40% 40%;
   }
 
   .home h1 {
     font-size: 3rem;
+    padding-top: 1vh;
   }
 
   .home h2 {
@@ -434,12 +396,9 @@ form textarea {
 
 /*Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .home {
-    padding-top: 8vw;
-  }
-
   .home h1 {
     font-size: 5rem;
+    padding-top: 5vh;
   }
 
   .home h2 {
@@ -447,7 +406,6 @@ form textarea {
   }
 
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     height: 100vw;
     background-position: 40% 40%;
   }
@@ -506,6 +464,7 @@ form textarea {
   }
 
   .home h1 {
+    padding-top: 5vh;
     font-size: 5rem;
   }
 
@@ -514,7 +473,6 @@ form textarea {
   }
 
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     height: 100vw;
     background-position: 40% 40%;
   }
@@ -569,7 +527,6 @@ form textarea {
 /* Large devices (desktops, 992px and up)*/
 @media only screen and (min-width: 992px) {
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     height: 100vh;
     background-position: 40% 40%;
   }
@@ -579,6 +536,7 @@ form textarea {
   }
 
   .home h1 {
+    padding-top: 5vh;
     font-size: 5rem;
   }
 
@@ -622,27 +580,15 @@ form textarea {
     margin-top: -3.5vh;
   }
 
-  /*
-  .contact button {
-    margin-left: 9vw;
-  }
-  */
-
   .cv img {
     margin-left: 4vw;
     width: 70%;
-
-    /*
-    margin-left: 2.5vw;
-    width: 75%;
-    */
   }
 
   .cv {
     text-align: center;
 
     margin-left: 3vw;
-    /*margin-left: 2.5vw;*/
     margin-top: 5vh;
   }
 
@@ -650,18 +596,8 @@ form textarea {
     font-size: 3.5rem;
   }
 
-  /*
-
-  .cv button {
-    margin-top: 1vh;
-    margin-left: 0vw;
-  }
-  */
-
   .cv button {
     margin-top: 3vh;
-
-    margin-left: 0vw;
   }
 
   .projects img {
@@ -674,7 +610,6 @@ form textarea {
 
 @media only screen and (min-width: 1200px) {
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     background-size: 150vw;
     height: 100vh;
     background-position: 40% 40%;
@@ -682,12 +617,12 @@ form textarea {
 
   .home h1 {
     position: top;
-
+    padding-top: 5vh;
     font-size: 6rem;
   }
 
   .home h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .about h1 {
@@ -706,13 +641,13 @@ form textarea {
   .contact h1 {
     text-align: center;
     font-size: 4.5rem;
+    margin-left: 8vw;
   }
 
-  /*change with vw */
   .contact form {
     padding-bottom: 2.5vh;
-    margin-left: 3vw;
-    width: 100%;
+    margin-left: 8vw;
+    width: 90%;
   }
 
   .contact label {
@@ -730,18 +665,7 @@ form textarea {
   .contact textarea {
     width: 85%;
     margin-left: 2vw;
-    /*
-    margin-bottom: 3vw;
-    */
-    /*
-    margin-bottom: 8vh;*/
   }
-
-  /*
-  .contact button {
-    margin-left: 9vw;
-  }
-  */
 
   .cv {
     text-align: center;
@@ -771,7 +695,6 @@ form textarea {
 
 @media only screen and (min-width: 1400px) {
   .backgroundImage {
-    background: url(./images/Laptop.jpg);
     background-size: 150vw;
     height: 100vh;
     background-position: 40% 40%;
@@ -806,7 +729,6 @@ form textarea {
     font-size: 4.5rem;
   }
 
-  /*change with vw */
   .contact form {
     padding-bottom: 2.5vh;
   }
@@ -826,18 +748,7 @@ form textarea {
   .contact textarea {
     width: 85%;
     margin-left: 2vw;
-    /*
-    margin-bottom: 3vw;
-    */
-    /*
-    margin-bottom: 8vh;*/
   }
-
-  /*
-  .contact button {
-    margin-left: 9vw;
-  }
-  */
 
   .cv {
     text-align: center;

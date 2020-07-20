@@ -520,7 +520,7 @@ form {
   }
   .contact form {
     padding-bottom: 2.5vh;
-
+    margin-left: 6.5vw;
     width: 90%;
   }
 
@@ -616,6 +616,7 @@ form {
 
   .contact form {
     padding-bottom: 2.5vh;
+    margin-left: 8vw;
     width: 90%;
   }
 

@@ -138,6 +138,8 @@ h2 {
   margin-top: 5vh;
 }
 
+/*
+
 .contact form {
   background-color: #dbe2ef;
   width: 100%;
@@ -157,6 +159,7 @@ h2 {
   max-height: 40vh;
   padding-top: 14vh;
 }
+*/
 
 .contact label {
   text-align: center;
@@ -191,17 +194,15 @@ h2 {
 
 .cv form {
   background-color: #dbe2ef;
-  min-height: 100vh;
+
   max-height: 200vh;
 }
 
 .cv1stHalf {
-  min-height: 70vh;
   max-height: 160vh;
 }
 
 .cv2ndHalf {
-  min-height: 30vh;
   max-height: 40vh;
   padding-top: 15vh;
 }
@@ -522,6 +523,19 @@ form {
     padding-bottom: 2.5vh;
     margin-left: 6vw;
     width: 90%;
+    min-height: 100vh;
+    max-height: 200vh;
+  }
+
+  .contact1stHalf {
+    min-height: 70vh;
+    max-height: 160vh;
+  }
+
+  .contact2ndHalf {
+    min-height: 30vh;
+    max-height: 40vh;
+    padding-top: 14vh;
   }
 
   .contact input {
@@ -558,6 +572,23 @@ form {
     margin-left: 3vw;
     /*margin-left: 2.5vw;*/
     margin-top: 5vh;
+  }
+
+  .cv form {
+    background-color: #dbe2ef;
+    min-height: 100vh;
+    max-height: 200vh;
+  }
+
+  .cv1stHalf {
+    min-height: 70vh;
+    max-height: 160vh;
+  }
+
+  .cv2ndHalf {
+    min-height: 30vh;
+    max-height: 40vh;
+    padding-top: 15vh;
   }
 
   .cv h1 {

@@ -608,6 +608,10 @@ form {
     height: 30vw;
   }
 
+  .contact {
+    margin-left: 7vw;
+  }
+
   .contact h1 {
     text-align: center;
     font-size: 4.5rem;
@@ -616,7 +620,8 @@ form {
 
   .contact form {
     padding-bottom: 2.5vh;
-    margin-left: 7vw;
+    /*
+    margin-left: 7vw;*/
     width: 90%;
   }
 
@@ -693,6 +698,10 @@ form {
     height: 30vw;
   }
 
+  .contact {
+    margin-left: 5vw;
+  }
+
   .contact h1 {
     text-align: center;
     margin-left: 5vw;
@@ -700,6 +709,8 @@ form {
   }
 
   .contact form {
+    /*
+    margin-left: 7vw;*/
     padding-bottom: 2.5vh;
   }
 

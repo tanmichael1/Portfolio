@@ -141,7 +141,7 @@ class Contact extends React.Component {
           </div>
           <br />
 
-          <div className="contact2ndHalf">
+          <div className="contact2ndHalf" style={{ paddingBottom: "2vh" }}>
             <button
               type="submit"
               className="contact btn btn-lg active"

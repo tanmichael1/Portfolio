@@ -15,7 +15,7 @@ function CV() {
         </div>
         <div className=" cv2ndHalf" style={{ paddingBottom: "2vh" }}>
           <a
-            href="https://drive.google.com/open?id=1AVsRN4cylEYVA1_xmsVs55wz63l4eLuR"
+            href="https://drive.google.com/file/d/1zt8vHtoa5J5Pg9yzAvUfE6VfvpukPQL5/view?usp=sharing"
             target="_blank"
             rel="noopener"
           >

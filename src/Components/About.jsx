@@ -6,7 +6,7 @@ function About() {
       <div style={{ width: "65vw", margin: "auto" }}>
         <h1>About</h1>
         <p>
-          I’m in my third and final year of a Bachelor of Science degree at
+          I have just finished my degree of a Bachelor of Science degree at
           Victoria University, majoring in both computer science and computer
           graphics.
         </p>
@@ -19,8 +19,8 @@ function About() {
           decided whilst at school that I wanted to be a part of this industry.
         </p>
         <p>
-          If I’m not coding or working on my university degree, I’m watching
-          movies or writing reviews.
+          If I’m not coding or working on my own web development projects, I’m watching
+          movies or writing reviews and screenplays.
         </p>
       </div>
     </div>

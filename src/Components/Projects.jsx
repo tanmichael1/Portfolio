@@ -14,7 +14,7 @@ function Projects() {
           project back in 2014 as part of Year 10’s curriculum. Initially it was
           intended to be just as a blog with 50 movie reviews written by myself.
           After completing that project however, I continued to write reviews,
-          and over the course of many years, I have now written over 700
+          and over the course of many years, I have now written over 800
           reviews. I have a passion and keen interest in film and tv, and so
           this was a passion project hobby for me, and I’m still active in
           running the site.
@@ -71,8 +71,7 @@ function Projects() {
         <h2>Personal Portfolio</h2>
         <img src={"./images/Portfolio.JPG"} alt="Personal Portfolio preview" />
         <p>
-          This website has been my main project these past months. I have
-          created this mainly using React, along with JavaScript, CSS and HTML.
+          I have created this mainly using React, along with JavaScript, CSS and HTML.
           I learned these skills from taking Angela Yu’s online Web Development
           course. Additionally, for the contact page, I used EmailJS for the
           contact form which automatically sends messages to my personal email
@@ -91,6 +90,32 @@ function Projects() {
           satisfying and rewarding.
         </p>
         <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
+          <button type="button" className="btn-xlarge btn-outline-secondary">
+            Github
+          </button>
+        </a>
+
+        <br/><br/>
+        <br/><br/>
+
+        <h2>JavaScript Quiz</h2>
+        <img src={"./images/Quiz.JPG"} alt="Quiz preview" />
+        <p>
+          My most recent project was to create a local Quiz. It takes multiple 
+          choice questions defined in the JavaScript file, and generates a Quiz
+          from them. The user can then take the quiz, and choose the respetictive 
+          topic on the opening screen. Upon completion, it is possible to view the 
+          results, including which answers are correct. 
+          I created this using JavaScript, CSS and HTML.
+        </p>
+
+        <p>
+          This project is also intended to be the base level version of my next project,
+          which will be a more advanced version of a Quiz website. It will build upon
+          this project and will include more features including users, scoreboards,
+          and a database. 
+        </p>
+        <a href="https://github.com/tanmichael1/Quiz-Javascript" target="_blank">
           <button type="button" className="btn-xlarge btn-outline-secondary">
             Github
           </button>

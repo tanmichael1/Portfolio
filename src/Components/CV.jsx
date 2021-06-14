@@ -5,8 +5,6 @@ function CV() {
     <div id="cv" className="cv">
       <h1>View CV</h1>
 
-      {/* Change - Length of CV */}
-
       <form className="cv" action="">
         <div className=" cv1stHalf">
           <img

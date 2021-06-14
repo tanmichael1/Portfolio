@@ -8,10 +8,6 @@ Dark blue: #112D4E
 
 */
 
-/* Change - check display of website on phone */
-
-/* Change - check display of website on official link */
-
 * {
   padding: 0;
   margin: 0;
@@ -650,7 +646,7 @@ form {
 @media only screen and (min-width: 992px) {
   .backgroundImage {
     height: 100vh;
-    background-position: 40% 40%;
+    background-position: 40% 0%;
   }
 
   .sidenav {
@@ -663,7 +659,7 @@ form {
   }
 
   .home h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .contact label {
@@ -776,7 +772,7 @@ form {
   .backgroundImage {
     background-size: 150vw;
     height: 100vh;
-    background-position: 40% 40%;
+    background-position: 40% 0%;
   }
 
   .home h1 {
@@ -786,7 +782,7 @@ form {
   }
 
   .home h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .about h1 {

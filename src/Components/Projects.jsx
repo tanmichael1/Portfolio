@@ -5,11 +5,8 @@ function Projects() {
     <div id="projects" className="projects">
       <div style={{ width: "65vw", margin: "auto" }}>
         <h1>Projects</h1>
-
         {/* Change - Update descriptions for projects based off CV */}
-
         <h2>React JS Quiz</h2>
-
         <img
           src={"./images/React - Quiz.JPG"}
           alt="React quiz preview"
@@ -24,18 +21,19 @@ function Projects() {
           scoreboards if they are signed in. This is my current project, and I
           am continuing to work on this.
         </p>
-
-        {/* Change - include link to actual react js quiz in button  */}
-
         <a href="https://github.com/tanmichael1/Quiz-ReactJS" target="_blank">
           <button type="button" className=" btn-xlarge  btn-outline-secondary">
             Github
           </button>
         </a>
-
+        <br /> <br />
+        <a href="https://quiz---reactjs.web.app/" target="_blank">
+          <button type="button" className=" btn-xlarge  btn-outline-secondary">
+            Website
+          </button>
+        </a>
         <br></br>
         <br></br>
-
         <h2>JavaScript Quiz</h2>
         <img src={"./images/Quiz.JPG"} alt="Quiz preview" />
         <p>
@@ -51,7 +49,6 @@ function Projects() {
           it is possible to view the results, including which answers are
           correct. I created this using JavaScript, CSS and HTML.
         </p>
-
         <a
           href="https://github.com/tanmichael1/Quiz-Javascript"
           target="_blank"
@@ -60,12 +57,9 @@ function Projects() {
             Github
           </button>
         </a>
-
         <br></br>
         <br></br>
-
         <h2>Personal Portfolio</h2>
-
         <img src={"./images/Portfolio.JPG"} alt="Personal Portfolio preview" />
         <p>
           I have created this mainly using React, along with JavaScript, CSS and
@@ -74,7 +68,6 @@ function Projects() {
           for the contact form which automatically sends messages to my personal
           email whenever the form is completed and submitted.
         </p>
-
         <p>
           This Portfolio Website is intended to be an overview of myself, what
           I’ve achieved, and who I am. As with the Node.js website, creating
@@ -91,11 +84,9 @@ function Projects() {
             Github
           </button>
         </a>
-
         <br></br>
         <br></br>
         <h2>The Cinema Critic (Wordpress)</h2>
-
         <img src={"./images/Wordpress.JPG"} alt="Wordpress Site preview" />
         <p>
           This is a movie review website which I created as a school personal
@@ -107,7 +98,6 @@ function Projects() {
           this was a passion project hobby for me, and I’m still active in
           running the site.
         </p>
-
         <p>
           I created this website using the free and open-source content
           management system Wordpress, and I used the language of HTML for my
@@ -122,10 +112,8 @@ function Projects() {
         </a>
         <br></br>
         <br></br>
-
         <br></br>
         <br></br>
-
         <br />
         <br />
         <br />

@@ -89,7 +89,6 @@ class Contact extends React.Component {
         <form className="test-mailing contact" onSubmit={this.handleSubmit}>
           <br />
 
-          {/* Change - Length of Contact */}
           <div
             className="contact1stHalf"
             style={{ fontSize: "1.2rem", paddingBottom: "2vh" }}

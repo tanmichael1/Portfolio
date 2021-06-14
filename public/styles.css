@@ -142,24 +142,8 @@ h2 {
   background-color: #dbe2ef;
   width: 100%;
 
-  /* min-height: 60vh;
-  max-height: 60vh; */
   margin-left: 0vw;
 }
-
-/*
-
-.contact1stHalf {
-  min-height: 70vh;
-  max-height: 160vh;
-}
-
-.contact2ndHalf {
-  min-height: 30vh;
-  max-height: 40vh;
-  padding-top: 14vh;
-}
-*/
 
 .contact label {
   text-align: center;
@@ -228,6 +212,8 @@ h2 {
 }
 
 .projects {
+  position: center;
+  text-align: center;
   padding-bottom: 5vh;
   padding-top: 5vh;
 }
@@ -282,11 +268,6 @@ h2 {
   text-align: center;
 }
 
-.projects {
-  position: center;
-  text-align: center;
-}
-
 form {
   position: relative;
 
@@ -321,10 +302,6 @@ form {
     height: 30vw;
   }
 
-  .contact2ndHalf {
-    height: 0vh;
-  }
-
   .contact h1 {
     margin-left: 1vw;
   }
@@ -332,13 +309,7 @@ form {
   .contact form {
     padding-bottom: 2.5vh;
 
-    /* margin-left: 6vw; */
     width: 100%;
-    /* min-height: 5vh;
-    max-height: 5vh; */
-
-    /* min-height: 100vh;
-    max-height: 150vh; */
   }
 
   .contact label {
@@ -375,10 +346,6 @@ form {
 
 /*Quite small*/
 @media (min-width: 360px) {
-  .sidenav {
-    visibility: hidden;
-  }
-
   .backgroundImage {
     height: 70vw;
     background-position: 40% 40%;
@@ -389,44 +356,16 @@ form {
     padding-top: 1vh;
   }
 
-  .home h2 {
-    font-size: 1.5rem;
-  }
-
   .projects img {
     width: 65vw;
     height: 30vw;
   }
 
-  /* .contact2ndHalf {
-    height: 0vh;
-  } */
-
   .contact form {
     padding-bottom: 2.5vh;
-
-    /* margin-left: 6vw; */
     width: 100%;
     min-height: 40vh;
     max-height: 40vh;
-
-    /* min-height: 100vh;
-    max-height: 150vh; */
-  }
-
-  .contact1stHalf {
-    /* min-height: 70vh;
-    max-height: 160vh; */
-  }
-
-  .contact2ndHalf {
-    /* min-height: 30vh;
-    max-height: 40vh;
-    padding-top: 14vh; */
-  }
-
-  .contact h1 {
-    margin-left: 1vw;
   }
 
   .contact label {
@@ -455,10 +394,6 @@ form {
     margin-left: 3vw;
     margin-top: 5vh;
   }
-
-  .cv img {
-    margin-left: 9vw;
-  }
 }
 
 /*Small devices (landscape phones, 576px and up) */
@@ -469,7 +404,7 @@ form {
   }
 
   .home h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .backgroundImage {
@@ -478,42 +413,11 @@ form {
   }
 
   .contact form {
-    padding-bottom: 2.5vh;
-
-    /* margin-left: 6vw; */
     width: 90%;
-    min-height: 40vh;
-    max-height: vh;
-
-    /* min-height: 100vh;
-    max-height: 150vh; */
-  }
-
-  .contact1stHalf {
-    /* min-height: 70vh;
-    max-height: 160vh; */
-  }
-
-  .contact2ndHalf {
-    /* min-height: 30vh;
-    max-height: 40vh;
-    padding-top: 14vh; */
   }
 
   .contact label {
     margin-left: 5vw;
-  }
-
-  .contact h1 {
-    margin-left: 1vw;
-  }
-
-  .contact input {
-    width: 85%;
-
-    margin-left: 5vw;
-
-    background-color: #f9f7f7;
   }
 
   .contact textarea {
@@ -533,9 +437,6 @@ form {
     margin-left: 7vw;
   }
 
-  .sidenav {
-    visibility: hidden;
-  }
   .projects img {
     width: 65vw;
     height: 30vw;
@@ -544,10 +445,6 @@ form {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .sidenav {
-    visibility: hidden;
-  }
-
   .home {
     position: center;
     text-align: center;
@@ -559,7 +456,8 @@ form {
   }
 
   .home h2 {
-    font-size: 2rem;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   .backgroundImage {
@@ -572,34 +470,11 @@ form {
     height: 30vw;
   }
 
-  /* .contact form {
-    padding-bottom: 2.5vh;
-    min-height: 60vh;
-    max-height: 60vh;
-  } */
-
   .contact form {
-    padding-bottom: 2.5vh;
-
-    /* margin-left: 6vw; */
-    width: 90%;
     min-height: 40vh;
     max-height: 55vh;
-
-    /* min-height: 100vh;
-    max-height: 150vh; */
   }
 
-  .contact1stHalf {
-    /* min-height: 70vh;
-    max-height: 160vh; */
-  }
-
-  .contact2ndHalf {
-    /* min-height: 30vh;
-    max-height: 40vh;
-    padding-top: 14vh; */
-  }
   .contact {
     text-align: center;
   }
@@ -608,17 +483,6 @@ form {
     padding-right: 100%;
     text-align: left;
     display: inline-block;
-  }
-
-  .contact h1 {
-    margin-left: 1vw;
-  }
-
-  .contact input {
-    width: 85%;
-    margin-left: 5vw;
-
-    background-color: #f9f7f7;
   }
 
   .contact textarea {
@@ -659,49 +523,27 @@ form {
   }
 
   .home h2 {
-    font-size: 1.5rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2rem;
   }
 
   .contact label {
     margin-left: 2vw;
-
-    padding-right: 100%;
-    text-align: left;
-    display: inline-block;
   }
 
   .contact h1 {
-    margin-left: 1vw;
     font-size: 3.5rem;
   }
   .contact form {
-    padding-bottom: 2.5vh;
-
     margin-left: 6vw;
-    width: 90%;
+
     min-height: 60vh;
     max-height: 60vh;
-
-    /* min-height: 100vh;
-    max-height: 150vh; */
-  }
-
-  .contact1stHalf {
-    /* min-height: 70vh;
-    max-height: 160vh; */
-  }
-
-  .contact2ndHalf {
-    /* min-height: 30vh;
-    max-height: 40vh;
-    padding-top: 14vh; */
   }
 
   .contact input {
-    width: 85%;
     margin-left: 2vw;
-
-    background-color: #f9f7f7;
   }
 
   .contact textarea {
@@ -711,42 +553,28 @@ form {
     margin-bottom: 0vh;
   }
 
-  .contact button {
-    /* margin-top: -3.5vh; */
-  }
-
   .cv img {
     margin-left: 4vw;
     width: 70%;
-
-    /*
-    margin-left: 2.5vw;
-    width: 75%;
-    */
   }
 
   .cv {
     text-align: center;
 
     margin-left: 3vw;
-    /*margin-left: 2.5vw;*/
+
     margin-top: 5vh;
   }
 
   .cv form {
     background-color: #dbe2ef;
-    /* min-height: 100vh;
-    max-height: 200vh; */
   }
 
   .cv1stHalf {
-    /* min-height: 70vh; */
     max-height: 160vh;
   }
 
   .cv2ndHalf {
-    /* min-height: 30vh;
-    max-height: 40vh; */
     padding-top: 0vh;
   }
 
@@ -782,15 +610,8 @@ form {
   }
 
   .home h2 {
-    font-size: 2rem;
-  }
-
-  .about h1 {
-    font-size: 4.5rem;
-  }
-
-  .sidenav {
-    visibility: visible;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .projects img {
@@ -809,30 +630,7 @@ form {
   }
 
   .contact form {
-    padding-bottom: 2.5vh;
-    min-height: 60vh;
-    max-height: 60vh;
-    /*
-    margin-left: 7vw;*/
     width: 90%;
-  }
-
-  .contact label {
-    padding-right: 100%;
-    text-align: left;
-    display: inline-block;
-  }
-
-  .contact input {
-    width: 85%;
-    margin-left: 2vw;
-    background-color: #f9f7f7;
-  }
-
-  .contact2ndHalf {
-    min-height: 10vh;
-    max-height: 10vh;
-    /* padding-top: 14vh; */
   }
 
   .contact textarea {
@@ -853,16 +651,6 @@ form {
 
   .cv h1 {
     font-size: 4.5rem;
-  }
-
-  .cv button {
-    margin-top: 3vh;
-
-    margin-left: 0vw;
-  }
-
-  p {
-    font-size: 1.3rem;
   }
 }
 
@@ -873,22 +661,10 @@ form {
     background-position: 40% 40%;
   }
 
-  .home h1 {
-    position: top;
-
-    font-size: 6rem;
-  }
-
   .home h2 {
     font-size: 3rem;
-  }
-
-  .about h1 {
-    font-size: 4.5rem;
-  }
-
-  .sidenav {
-    visibility: visible;
+    margin-right: 12%;
+    margin-left: 12%;
   }
 
   .projects img {
@@ -896,45 +672,22 @@ form {
     height: 30vw;
   }
 
-  .contact {
-    margin-left: 0vw;
-  }
-
   .contact h1 {
-    text-align: center;
     margin-left: 5vw;
-    font-size: 4.5rem;
   }
 
   .contact form {
-    /*
-    margin-left: 7vw;*/
-    padding-bottom: 2.5vh;
     min-height: 70vh;
     max-height: 70vh;
-  }
-
-  .contact label {
-    padding-right: 100%;
-    text-align: left;
-    display: inline-block;
-  }
-
-  .contact input {
-    width: 85%;
-    margin-left: 2vw;
-    background-color: #f9f7f7;
   }
 
   .contact textarea {
     width: 85%;
     margin-left: 2vw;
   }
+
   @media only screen and (min-width: 1400px) {
     .contact form {
-      /*
-      margin-left: 7vw;*/
-
       min-height: 70vh;
       max-height: 70vh;
     }
@@ -943,24 +696,5 @@ form {
     text-align: center;
 
     margin-left: 2.5vw;
-  }
-
-  .cv img {
-    margin-left: 2.5vw;
-    width: 75%;
-  }
-
-  .cv h1 {
-    font-size: 4.5rem;
-  }
-
-  .cv button {
-    margin-top: 3vh;
-
-    margin-left: 0vw;
-  }
-
-  p {
-    font-size: 1.3rem;
   }
 }

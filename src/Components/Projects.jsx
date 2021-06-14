@@ -10,8 +10,6 @@ function Projects() {
 
         <h2>React JS Quiz</h2>
 
-        {/* Change - Update image */}
-
         <img
           src={"./images/React - Quiz.JPG"}
           alt="React quiz preview"
@@ -97,8 +95,6 @@ function Projects() {
         <br></br>
         <br></br>
         <h2>The Cinema Critic (Wordpress)</h2>
-
-        {/* Change - Update wordpress image */}
 
         <img src={"./images/Wordpress.JPG"} alt="Wordpress Site preview" />
         <p>

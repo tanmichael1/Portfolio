@@ -3,6 +3,8 @@ import React from "react";
 function Header() {
   return (
     <div>
+      {/* Change - rename file name Header to sidebar */}
+
       <div className="sidenav">
         <a href="#home">Home</a>
         <a href="#about">About</a>

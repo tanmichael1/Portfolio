@@ -2,6 +2,8 @@ import React from "react";
 import { IoLogoLinkedin, IoLogoFacebook, IoLogoGithub } from "react-icons/io";
 
 function Footer() {
+  // Change - footer too large in smaller sizes
+
   return (
     <div className="footer">
       <div className="footerIcon">

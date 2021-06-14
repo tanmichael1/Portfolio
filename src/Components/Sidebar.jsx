@@ -1,10 +1,8 @@
 import React from "react";
 
-function Header() {
+function Sidebar() {
   return (
     <div>
-      {/* Change - rename file name Header to sidebar */}
-
       <div className="sidenav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -16,4 +14,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Sidebar;

@@ -5,24 +5,20 @@ function About() {
     <div id="about" className="about">
       <div style={{ width: "65vw", margin: "auto" }}>
         <h1>About</h1>
-
-        {/* Change - add more to about */}
-
         <p>
-          I have finished my degree of a Bachelor of Science degree at Victoria
-          University, majoring in computer science and computer graphics.
+          I am a recent graduate, having completed my Computer Science and
+          Computer Graphics degree at Victoria University.
         </p>
         <p>
           I have always been interested in computers and digital technology, and
           my academic strengths in school included Math and Physics. I would
           like to create software for people to use and to be helpful in their
-          lives. In our ever-advancing world, software is one of the key
-          components in the growth and development of new technology, and I
-          decided whilst at school that I wanted to be a part of this industry.
+          lives. I am passionate about learning, creating, and using new
+          technologies.
         </p>
         <p>
           If I’m not coding or working on my own web development projects, I’m
-          watching movies or writing reviews and screenplays.
+          watching movies or writing movie and tv reviews and screenplays.
         </p>
       </div>
     </div>

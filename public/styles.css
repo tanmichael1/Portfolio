@@ -142,16 +142,16 @@ h2 {
   margin-top: 5vh;
 }
 
-/*
-
 .contact form {
   background-color: #dbe2ef;
   width: 100%;
 
-  min-height: 100vh;
-  max-height: 200vh;
+  /* min-height: 60vh;
+  max-height: 60vh; */
   margin-left: 0vw;
 }
+
+/*
 
 .contact1stHalf {
   min-height: 70vh;
@@ -208,7 +208,7 @@ h2 {
 
 .cv2ndHalf {
   max-height: 40vh;
-  padding-top: 15vh;
+  padding-top: 5vh;
 }
 
 .cv h1 {
@@ -325,6 +325,110 @@ form {
     height: 30vw;
   }
 
+  .contact2ndHalf {
+    height: 0vh;
+  }
+
+  .contact h1 {
+    margin-left: 1vw;
+  }
+
+  .contact form {
+    padding-bottom: 2.5vh;
+
+    /* margin-left: 6vw; */
+    width: 100%;
+    /* min-height: 5vh;
+    max-height: 5vh; */
+
+    /* min-height: 100vh;
+    max-height: 150vh; */
+  }
+
+  .contact label {
+    padding-right: 100%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 5vw;
+  }
+
+  .contact input {
+    width: 85%;
+    margin-left: 5vw;
+
+    background-color: #f9f7f7;
+  }
+
+  .contact textarea {
+    margin-left: 5vw;
+
+    width: 85%;
+  }
+
+  .cv {
+    text-align: center;
+
+    margin-left: 3vw;
+    margin-top: 5vh;
+  }
+
+  .cv img {
+    margin-left: 9vw;
+  }
+}
+
+/*Quite small*/
+@media (min-width: 360px) {
+  .sidenav {
+    visibility: hidden;
+  }
+
+  .backgroundImage {
+    height: 70vw;
+    background-position: 40% 40%;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+    padding-top: 1vh;
+  }
+
+  .home h2 {
+    font-size: 1.5rem;
+  }
+
+  .projects img {
+    width: 65vw;
+    height: 30vw;
+  }
+
+  /* .contact2ndHalf {
+    height: 0vh;
+  } */
+
+  .contact form {
+    padding-bottom: 2.5vh;
+
+    /* margin-left: 6vw; */
+    width: 100%;
+    min-height: 40vh;
+    max-height: 40vh;
+
+    /* min-height: 100vh;
+    max-height: 150vh; */
+  }
+
+  .contact1stHalf {
+    /* min-height: 70vh;
+    max-height: 160vh; */
+  }
+
+  .contact2ndHalf {
+    /* min-height: 30vh;
+    max-height: 40vh;
+    padding-top: 14vh; */
+  }
+
   .contact h1 {
     margin-left: 1vw;
   }
@@ -377,6 +481,29 @@ form {
     background-position: 40% 40%;
   }
 
+  .contact form {
+    padding-bottom: 2.5vh;
+
+    /* margin-left: 6vw; */
+    width: 90%;
+    min-height: 40vh;
+    max-height: vh;
+
+    /* min-height: 100vh;
+    max-height: 150vh; */
+  }
+
+  .contact1stHalf {
+    /* min-height: 70vh;
+    max-height: 160vh; */
+  }
+
+  .contact2ndHalf {
+    /* min-height: 30vh;
+    max-height: 40vh;
+    padding-top: 14vh; */
+  }
+
   .contact label {
     margin-left: 5vw;
   }
@@ -420,7 +547,7 @@ form {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   .sidenav {
     visibility: hidden;
   }
@@ -449,8 +576,36 @@ form {
     height: 30vw;
   }
 
+  /* .contact form {
+    padding-bottom: 2.5vh;
+    min-height: 60vh;
+    max-height: 60vh;
+  } */
+
   .contact form {
     padding-bottom: 2.5vh;
+
+    /* margin-left: 6vw; */
+    width: 90%;
+    min-height: 40vh;
+    max-height: 55vh;
+
+    /* min-height: 100vh;
+    max-height: 150vh; */
+  }
+
+  .contact1stHalf {
+    /* min-height: 70vh;
+    max-height: 160vh; */
+  }
+
+  .contact2ndHalf {
+    /* min-height: 30vh;
+    max-height: 40vh;
+    padding-top: 14vh; */
+  }
+  .contact {
+    text-align: center;
   }
 
   .contact label {
@@ -525,21 +680,25 @@ form {
   }
   .contact form {
     padding-bottom: 2.5vh;
+
     margin-left: 6vw;
     width: 90%;
-    min-height: 100vh;
-    max-height: 200vh;
+    min-height: 60vh;
+    max-height: 60vh;
+
+    /* min-height: 100vh;
+    max-height: 150vh; */
   }
 
   .contact1stHalf {
-    min-height: 70vh;
-    max-height: 160vh;
+    /* min-height: 70vh;
+    max-height: 160vh; */
   }
 
   .contact2ndHalf {
-    min-height: 30vh;
+    /* min-height: 30vh;
     max-height: 40vh;
-    padding-top: 14vh;
+    padding-top: 14vh; */
   }
 
   .contact input {
@@ -557,7 +716,7 @@ form {
   }
 
   .contact button {
-    margin-top: -3.5vh;
+    /* margin-top: -3.5vh; */
   }
 
   .cv img {
@@ -580,19 +739,19 @@ form {
 
   .cv form {
     background-color: #dbe2ef;
-    min-height: 100vh;
-    max-height: 200vh;
+    /* min-height: 100vh;
+    max-height: 200vh; */
   }
 
   .cv1stHalf {
-    min-height: 70vh;
+    /* min-height: 70vh; */
     max-height: 160vh;
   }
 
   .cv2ndHalf {
-    min-height: 30vh;
-    max-height: 40vh;
-    padding-top: 15vh;
+    /* min-height: 30vh;
+    max-height: 40vh; */
+    padding-top: 0vh;
   }
 
   .cv h1 {
@@ -655,6 +814,8 @@ form {
 
   .contact form {
     padding-bottom: 2.5vh;
+    min-height: 60vh;
+    max-height: 60vh;
     /*
     margin-left: 7vw;*/
     width: 90%;
@@ -670,6 +831,12 @@ form {
     width: 85%;
     margin-left: 2vw;
     background-color: #f9f7f7;
+  }
+
+  .contact2ndHalf {
+    min-height: 10vh;
+    max-height: 10vh;
+    /* padding-top: 14vh; */
   }
 
   .contact textarea {
@@ -703,7 +870,7 @@ form {
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1600px) {
   .backgroundImage {
     background-size: 150vw;
     height: 100vh;
@@ -747,6 +914,8 @@ form {
     /*
     margin-left: 7vw;*/
     padding-bottom: 2.5vh;
+    min-height: 70vh;
+    max-height: 70vh;
   }
 
   .contact label {
@@ -765,7 +934,15 @@ form {
     width: 85%;
     margin-left: 2vw;
   }
+  @media only screen and (min-width: 1400px) {
+    .contact form {
+      /*
+      margin-left: 7vw;*/
 
+      min-height: 70vh;
+      max-height: 70vh;
+    }
+  }
   .cv {
     text-align: center;
 

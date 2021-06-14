@@ -9,9 +9,8 @@ function About() {
         {/* Change - add more to about */}
 
         <p>
-          I have just finished my degree of a Bachelor of Science degree at
-          Victoria University, majoring in both computer science and computer
-          graphics.
+          I have finished my degree of a Bachelor of Science degree at Victoria
+          University, majoring in computer science and computer graphics.
         </p>
         <p>
           I have always been interested in computers and digital technology, and

@@ -78,21 +78,13 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div
-        id="contact"
-        /*style={{ width: "65vw", margin: "auto" }}*/
-        className="contact"
-      >
-        {/*className="contact" */}
+      <div className="contact">
         <h1>Contact Me</h1>
         {/*Form layout that requires a Name, Email, and message */}
         <form className="test-mailing contact" onSubmit={this.handleSubmit}>
           <br />
 
-          <div
-            className="contact1stHalf"
-            style={{ fontSize: "1.2rem", paddingBottom: "2vh" }}
-          >
+          <div className="contact1stHalf">
             <div>
               <label htmlFor="name">Name</label>
               <input
@@ -142,11 +134,10 @@ class Contact extends React.Component {
           </div>
           <br />
 
-          <div className="contact2ndHalf" style={{ paddingBottom: "2vh" }}>
+          <div className="contact2ndHalf">
             <button
               type="submit"
               className="contact btn btn-lg active"
-              /*class="btn btn-primary btn-lg active"*/
               onClick={() => this.handleSubmit}
             >
               Submit

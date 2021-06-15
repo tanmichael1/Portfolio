@@ -112,22 +112,31 @@ h2 {
 }
 .about h1 {
   color: #112d4e;
-
   margin-bottom: 1vh;
   padding-bottom: 5vh;
-
   font-size: 4.5rem;
 }
 
 .about p {
   color: #112d4e;
   font-size: 1.3rem;
+  width: 65vw;
+  margin: auto;
 }
 
 .contact {
   background-color: #dbe2ef;
 
   text-align: center;
+}
+
+.contact1stHalf {
+  font-size: 1.2rem;
+  padding-bottom: 2vh;
+}
+
+.contact2ndHalf {
+  padding-bottom: 2vh;
 }
 
 .contact h1 {
@@ -182,13 +191,9 @@ h2 {
   max-height: 200vh;
 }
 
-.cv1stHalf {
-  max-height: 160vh;
-}
-
 .cv2ndHalf {
-  max-height: 40vh;
   padding-top: 5vh;
+  padding-bottom: 2vh;
 }
 
 .cv h1 {
@@ -216,10 +221,13 @@ h2 {
   text-align: center;
   padding-bottom: 5vh;
   padding-top: 5vh;
+  width: 65vw;
+  margin: auto;
 }
 
 .projects img {
   margin-bottom: 1vw;
+  border: 1px solid #555;
 }
 
 .projects h1 {
@@ -338,10 +346,6 @@ form {
     margin-left: 3vw;
     margin-top: 5vh;
   }
-
-  .cv img {
-    margin-left: 9vw;
-  }
 }
 
 /*Quite small*/
@@ -359,6 +363,12 @@ form {
   .projects img {
     width: 65vw;
     height: 30vw;
+  }
+
+  .contact {
+    text-align: center;
+
+    margin-left: 3vw;
   }
 
   .contact form {
@@ -411,6 +421,11 @@ form {
     height: 100vw;
     background-position: 40% 40%;
   }
+  .contact {
+    text-align: center;
+
+    margin-left: 3vw;
+  }
 
   .contact form {
     width: 90%;
@@ -433,10 +448,6 @@ form {
     margin-top: 5vh;
   }
 
-  .cv img {
-    margin-left: 7vw;
-  }
-
   .projects img {
     width: 65vw;
     height: 30vw;
@@ -445,11 +456,6 @@ form {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .home {
-    position: center;
-    text-align: center;
-  }
-
   .home h1 {
     padding-top: 5vh;
     font-size: 5rem;
@@ -477,6 +483,8 @@ form {
 
   .contact {
     text-align: center;
+
+    margin-left: 4vw;
   }
 
   .contact label {
@@ -499,6 +507,7 @@ form {
     text-align: center;
 
     margin-top: 5vh;
+    margin-left: 1vw;
   }
 
   .cv img {
@@ -538,8 +547,8 @@ form {
   .contact form {
     margin-left: 6vw;
 
-    min-height: 60vh;
-    max-height: 60vh;
+    /* min-height: 60vh;
+    max-height: 60vh; */
   }
 
   .contact input {
@@ -554,7 +563,6 @@ form {
   }
 
   .cv img {
-    margin-left: 4vw;
     width: 70%;
   }
 
@@ -568,10 +576,6 @@ form {
 
   .cv form {
     background-color: #dbe2ef;
-  }
-
-  .cv1stHalf {
-    max-height: 160vh;
   }
 
   .cv2ndHalf {
@@ -645,7 +649,6 @@ form {
   }
 
   .cv img {
-    margin-left: 2.5vw;
     width: 75%;
   }
 
@@ -677,20 +680,28 @@ form {
   }
 
   .contact form {
-    min-height: 70vh;
-    max-height: 70vh;
+    /* min-height: 70vh;
+    max-height: 70vh; */
+    margin-left: 3vw;
   }
 
   .contact textarea {
     width: 85%;
-    margin-left: 2vw;
+    margin-left: 1.5vw;
+  }
+  .contact label {
+    margin-left: 1.5vw;
+  }
+
+  .contact input {
+    margin-left: 1.5vw;
   }
 
   @media only screen and (min-width: 1400px) {
-    .contact form {
+    /* .contact form {
       min-height: 70vh;
       max-height: 70vh;
-    }
+    } */
   }
   .cv {
     text-align: center;

@@ -5,7 +5,7 @@ function Home() {
     <div id="home" className="home backgroundImage">
       <h1>Michael Tan</h1>
 
-      <h2>Computer Science and Computer Graphics Post-Graduate Student</h2>
+      <h2>Computer Science and Computer Graphics Graduate Student</h2>
     </div>
   );
 }

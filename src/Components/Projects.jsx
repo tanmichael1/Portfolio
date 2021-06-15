@@ -2,15 +2,11 @@ import React from "react";
 
 function Projects() {
   return (
-    <div id="projects" className="projects">
-      <div style={{ width: "65vw", margin: "auto" }}>
+    <div className="projects">
+      <div>
         <h1>Projects</h1>
         <h2>React JS Quiz</h2>
-        <img
-          src={"./images/React - Quiz.JPG"}
-          alt="React quiz preview"
-          style={{ border: "1px solid #555" }}
-        />
+        <img src={"./images/ReactJS-Quiz.JPG"} alt="React quiz preview" />
         <p>
           My second iteration of a quiz website, which will be publicly hosted.
           It uses React, JavaScript, CSS and HTML, and makes use of Firebase’s
@@ -30,8 +26,8 @@ function Projects() {
             Website
           </button>
         </a>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
         <h2>JavaScript Quiz</h2>
         <img src={"./images/Quiz.JPG"} alt="Quiz preview" />
         <p>
@@ -55,8 +51,8 @@ function Projects() {
             Github
           </button>
         </a>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
         <h2>Personal Portfolio</h2>
         <img src={"./images/Portfolio.JPG"} alt="Personal Portfolio preview" />
         <p>
@@ -81,8 +77,8 @@ function Projects() {
             Github
           </button>
         </a>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
         <h2>The Cinema Critic (Wordpress)</h2>
         <img src={"./images/Wordpress.JPG"} alt="Wordpress Site preview" />
         <p>
@@ -107,10 +103,10 @@ function Projects() {
             Website
           </button>
         </a>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

@@ -28,6 +28,7 @@ function Projects() {
         </a>
         <br />
         <br />
+        <hr />
         <h2>JavaScript Quiz</h2>
         <img src={"./images/Quiz.JPG"} alt="Quiz preview" />
         <p>
@@ -53,6 +54,7 @@ function Projects() {
         </a>
         <br />
         <br />
+        <hr />
         <h2>Personal Portfolio</h2>
         <img src={"./images/Portfolio.JPG"} alt="Personal Portfolio preview" />
         <p>
@@ -79,6 +81,7 @@ function Projects() {
         </a>
         <br />
         <br />
+        <hr />
         <h2>The Cinema Critic (Wordpress)</h2>
         <img src={"./images/Wordpress.JPG"} alt="Wordpress Site preview" />
         <p>

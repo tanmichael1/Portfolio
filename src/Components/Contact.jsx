@@ -7,35 +7,29 @@ class Contact extends React.Component {
     this.state = { feedback: "", name: "", subject: "", email: "" };
   }
 
-  // saves the user's name entered to state
+  // saves the inputs entered to state
   nameChange = (event) => {
     this.setState({ name: event.target.value });
   };
 
-  // saves the user's email entered to state
   emailChange = (event) => {
     this.setState({ email: event.target.value });
   };
 
-  // saves the user's subject entered to state
   subjectChange = (event) => {
     this.setState({ subject: event.target.value });
   };
 
-  // saves the user's message entered to state
   messageChange = (event) => {
     this.setState({ feedback: event.target.value });
   };
 
-  //onSubmit of email form
   handleSubmit = (event) => {
     event.preventDefault();
 
-    //This templateId is created in EmailJS.com
     const templateId = "basic";
 
-    //This is a custom method from EmailJS that takes the information
-    //from the form and sends the email with the information gathered
+    //Takes the information from the form and sends the email with the information gathered
     //and formats the email based on the templateID provided.
     this.sendFeedback(templateId, {
       message: this.state.feedback,
@@ -48,7 +42,6 @@ class Contact extends React.Component {
   //Custom EmailJS method
 
   sendFeedback = (templateId, variables) => {
-    //commented out to stop using up 200 message cap
     window.emailjs
       .send("gmail", templateId, variables)
       .then((res) => {
@@ -70,7 +63,6 @@ class Contact extends React.Component {
     // Use this instead if testing
     // Swal.fire({
     //   title: "Email Successfully Sent",
-    //   // text only here for testing without using up 200 message cap
     //   text: `message: ${variables.message}, name: ${variables.name}, subject: ${variables.subject}, email: ${variables.email}`,
     //   icon: "success",
     // });
@@ -80,7 +72,7 @@ class Contact extends React.Component {
     return (
       <div className="contact">
         <h1>Contact Me</h1>
-        {/*Form layout that requires a Name, Email, and message */}
+
         <form className="test-mailing contact" onSubmit={this.handleSubmit}>
           <br />
 

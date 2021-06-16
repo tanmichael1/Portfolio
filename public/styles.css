@@ -216,6 +216,11 @@ h2 {
   margin-top: 0vh;
 }
 
+.cvAndContactSection {
+  background-color: #dbe2ef;
+  padding-bottom: 5vh;
+}
+
 .projects {
   position: center;
   text-align: center;
@@ -321,6 +326,7 @@ form {
   }
 
   .contact label {
+    font-size: 2.5rem;
     padding-right: 100%;
     text-align: left;
     display: inline-block;
@@ -379,6 +385,7 @@ form {
   }
 
   .contact label {
+    font-size: 4.5rem;
     padding-right: 100%;
     text-align: left;
     display: inline-block;
@@ -433,6 +440,7 @@ form {
 
   .contact label {
     margin-left: 5vw;
+    font-size: 1.5rem;
   }
 
   .contact textarea {
@@ -539,13 +547,15 @@ form {
 
   .contact label {
     margin-left: 2vw;
+
+    font-size: 1.5rem;
   }
 
   .contact h1 {
     font-size: 3.5rem;
   }
   .contact form {
-    margin-left: 6vw;
+    margin-left: 1vw;
 
     /* min-height: 60vh;
     max-height: 60vh; */
@@ -627,6 +637,10 @@ form {
     margin-left: 0vw;
   }
 
+  .contact label {
+    font-size: 1.5rem;
+  }
+
   .contact h1 {
     text-align: center;
     font-size: 4.5rem;
@@ -690,6 +704,7 @@ form {
     margin-left: 1.5vw;
   }
   .contact label {
+    font-size: 1.5rem;
     margin-left: 1.5vw;
   }
 
@@ -707,5 +722,11 @@ form {
     text-align: center;
 
     margin-left: 2.5vw;
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+  .contact label {
+    font-size: 1rem;
   }
 }

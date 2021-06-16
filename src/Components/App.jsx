@@ -14,13 +14,13 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <div style={{ backgroundColor: "#dbe2ef", paddingBottom: "5vh" }}>
-        <div className="container" style={{ backgroundColor: "#dbe2ef" }}>
-          <div className="row" style={{ backgroundColor: "#dbe2ef" }}>
+      <div className="cvAndContactSection">
+        <div className="container">
+          <div className="row">
             <div className="col-lg-6">
               <Contact />
             </div>
-            <div className="col-lg-6" /* style={{ height: "20vh" }} */>
+            <div className="col-lg-6">
               <CV />
             </div>
           </div>

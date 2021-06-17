@@ -20,6 +20,7 @@ This project was created with:
 
 - HTML
 - CSS
+  JavaScript
 - React
 - Bootstrap
 - Node.js

@@ -380,8 +380,6 @@ form {
   .contact form {
     padding-bottom: 2.5vh;
     width: 100%;
-    min-height: 40vh;
-    max-height: 40vh;
   }
 
   .contact label {
@@ -495,8 +493,6 @@ form {
   }
 
   .contact form {
-    min-height: 40vh;
-    max-height: 55vh;
   }
 
   .contact {
@@ -523,7 +519,6 @@ form {
 
   .cv {
     text-align: center;
-
     margin-top: 5vh;
     margin-left: 1vw;
   }
@@ -576,7 +571,6 @@ form {
 
   .contact label {
     margin-left: 2vw;
-
     font-size: 1.5rem;
   }
 
@@ -586,9 +580,6 @@ form {
   .contact form {
     width: 100%;
     margin-left: 1vw;
-
-    /* min-height: 60vh;
-    max-height: 60vh; */
   }
 
   .contact input {
@@ -756,8 +747,6 @@ form {
   }
 
   .contact form {
-    /* min-height: 70vh;
-    max-height: 70vh; */
     margin-left: 3vw;
   }
 
@@ -774,12 +763,6 @@ form {
     margin-left: 1.5vw;
   }
 
-  @media only screen and (min-width: 1400px) {
-    /* .contact form {
-      min-height: 70vh;
-      max-height: 70vh;
-    } */
-  }
   .cv {
     text-align: center;
 

@@ -9,7 +9,7 @@ function CV() {
         <div className="cv1stHalf">
           <img className="cv" src={"./images/CV.JPG"} alt={"CV Preview"} />
         </div>
-        <div className=" cv2ndHalf">
+        <div className="cv2ndHalf">
           <a
             href="https://drive.google.com/file/d/1Lb88WupaiHW0PW8rBrvSb9EWfRrJk4pC/view?usp=sharing"
             target="_blank"

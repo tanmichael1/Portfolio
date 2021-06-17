@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div>
         <h1>Projects</h1>
         <h2>React JS Quiz</h2>

@@ -70,7 +70,7 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="contact">
+      <div id="contact" className="contact">
         <h1>Contact Me</h1>
 
         <form className="test-mailing contact" onSubmit={this.handleSubmit}>

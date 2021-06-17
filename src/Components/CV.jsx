@@ -5,7 +5,7 @@ function CV() {
     <div className="cv">
       <h1>View CV</h1>
 
-      <form className="cv">
+      <form id="cv" className="cv">
         <div className="cv1stHalf">
           <img className="cv" src={"./images/CV.JPG"} alt={"CV Preview"} />
         </div>

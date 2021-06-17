@@ -11,7 +11,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IoLogoFacebook size="2.5rem" color="white" />
+          <IoLogoFacebook size="3.5rem" color="white" />
         </a>
         <a
           className="link"
@@ -19,7 +19,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IoLogoLinkedin size="2.5rem" color="white" />
+          <IoLogoLinkedin size="3.5rem" color="white" />
         </a>
         <a
           className="link"
@@ -27,7 +27,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IoLogoGithub size="2.5rem" color="white" />
+          <IoLogoGithub size="3.5rem" color="white" />
         </a>
       </div>
 

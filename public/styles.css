@@ -256,7 +256,7 @@ h2 {
   text-align: center;
   width: 100%;
   padding-top: 3vh;
-  padding-bottom: 10vh;
+  padding-bottom: 6vh;
   margin: -10px auto -100px auto;
   bottom: 0;
   height: 2.5rem;
@@ -411,6 +411,11 @@ form {
     margin-left: 3vw;
     margin-top: 5vh;
   }
+
+  .footer {
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up) */
@@ -459,6 +464,11 @@ form {
   .projects img {
     width: 65vw;
     height: 30vw;
+  }
+
+  .footer {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
   }
 }
 
@@ -521,6 +531,25 @@ form {
   .cv img {
     width: 50%;
   }
+
+  .footer {
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+  }
+
+  .footer p {
+    color: white;
+    background-color: #3f72af;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .footerIcon {
+    background-color: #3f72af;
+    position: center;
+    text-align: center;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -555,6 +584,7 @@ form {
     font-size: 3.5rem;
   }
   .contact form {
+    width: 100%;
     margin-left: 1vw;
 
     /* min-height: 60vh;
@@ -606,6 +636,37 @@ form {
     width: 65vw;
     height: 30vw;
   }
+
+  .footer {
+    position: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    margin: -10px auto -100px auto;
+    bottom: 0;
+    height: 2.5rem;
+    background-color: #3f72af;
+  }
+
+  .footer a {
+    background-color: #3f72af;
+  }
+
+  .footer p {
+    color: white;
+    background-color: #3f72af;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .footerIcon {
+    background-color: #3f72af;
+    position: center;
+    text-align: center;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -649,6 +710,7 @@ form {
 
   .contact form {
     width: 90%;
+    margin-left: 5.5vw;
   }
 
   .contact textarea {

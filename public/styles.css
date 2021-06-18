@@ -107,13 +107,13 @@ h2 {
   text-align: center;
   color: #112d4e;
   background-color: #dbe2ef;
-  padding-bottom: 5vh;
-  padding-top: 5vh;
+  padding-bottom: 0vh;
+  padding-top: 0vh;
 }
 .about h1 {
   color: #112d4e;
-  margin-bottom: 1vh;
-  padding-bottom: 5vh;
+  /* margin-bottom: 1vh;
+  padding-bottom: 1vh; */
   font-size: 4.5rem;
 }
 
@@ -187,8 +187,6 @@ h2 {
 
 .cv form {
   background-color: #dbe2ef;
-
-  max-height: 200vh;
 }
 
 .cv2ndHalf {
@@ -199,7 +197,6 @@ h2 {
 .cv h1 {
   margin-top: 5vh;
   font-size: 4.5rem;
-  padding-bottom: 3vh;
 }
 
 .cv img {
@@ -236,6 +233,10 @@ h2 {
   margin: auto;
 }
 
+.projects a {
+  margin-bottom: 1vh;
+}
+
 .projects img {
   margin-bottom: 1vw;
   border: 1px solid #555;
@@ -254,6 +255,9 @@ h2 {
 .projects p {
   padding-bottom: 3vh;
   font-size: 1.3rem;
+}
+
+.project {
 }
 
 .footer {
@@ -297,7 +301,7 @@ form {
 }
 
 /*Extra small*/
-@media (min-width: 0px) {
+@media only screen and (min-width: 0px) {
   .sidenav {
     visibility: hidden;
   }
@@ -314,6 +318,13 @@ form {
 
   .home h2 {
     font-size: 1.5rem;
+  }
+
+  .about h1 {
+    color: #112d4e;
+    margin-bottom: 09vh;
+    padding-bottom: 0vh;
+    font-size: 4.5rem;
   }
 
   .projects img {
@@ -361,7 +372,7 @@ form {
 }
 
 /*Quite small*/
-@media (min-width: 360px) {
+@media only screen and (min-width: 360px) {
   .backgroundImage {
     height: 70vw;
     background-position: 40% 40%;
@@ -371,7 +382,16 @@ form {
     font-size: 3rem;
     padding-top: 1vh;
   }
-
+  .about {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+  }
+  .about h1 {
+    color: #112d4e;
+    margin-bottom: 1vh;
+    padding-bottom: 5vh;
+    font-size: 4.5rem;
+  }
   .projects img {
     width: 65vw;
     height: 30vw;
@@ -444,7 +464,7 @@ form {
   }
 
   .contact form {
-    width: 90%;
+    width: 100%;
   }
 
   .contact label {
@@ -553,7 +573,7 @@ form {
 /* Large devices (desktops, 992px and up)*/
 @media only screen and (min-width: 992px) {
   .backgroundImage {
-    height: 100vh;
+    height: 80vh;
     background-position: 40% 0%;
   }
 
@@ -610,10 +630,7 @@ form {
 
   .cv form {
     background-color: #dbe2ef;
-  }
-
-  .cv2ndHalf {
-    padding-top: 0vh;
+    width: 100%;
   }
 
   .cv h1 {
@@ -674,7 +691,7 @@ form {
 @media only screen and (min-width: 1200px) {
   .backgroundImage {
     background-size: 150vw;
-    height: 100vh;
+    height: 80vh;
     background-position: 40% 0%;
   }
 

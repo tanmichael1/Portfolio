@@ -15,16 +15,22 @@ function Projects() {
           publicly created quizzes. This is my current project, and I am
           continuing to work on this.
         </p>
-        <a href="https://github.com/tanmichael1/Quiz-ReactJS" target="_blank">
-          <button type="button" className=" btn-xlarge  btn-outline-secondary">
-            Github
-          </button>
+        <a
+          href="https://github.com/tanmichael1/Quiz-ReactJS"
+          type="button"
+          className="btn btn-xlarge btn-outline-secondary"
+          target="_blank"
+        >
+          Github
         </a>
         <br /> <br />
-        <a href="https://quiz---reactjs.web.app/" target="_blank">
-          <button type="button" className=" btn-xlarge  btn-outline-secondary">
-            Website
-          </button>
+        <a
+          href="https://quiz---reactjs.web.app/"
+          type="button"
+          className="btn btn-xlarge btn-outline-secondary"
+          target="_blank"
+        >
+          Webiste
         </a>
         <br />
         <br />
@@ -46,11 +52,11 @@ function Projects() {
         </p>
         <a
           href="https://github.com/tanmichael1/Quiz-Javascript"
+          type="button"
+          className="btn btn-xlarge btn-outline-secondary"
           target="_blank"
         >
-          <button type="button" className="btn-xlarge btn-outline-secondary">
-            Github
-          </button>
+          Github
         </a>
         <br />
         <br />
@@ -74,10 +80,13 @@ function Projects() {
           development process, I have been improving my coding skills, so I have
           found the learning experience to be quite satisfying and rewarding.
         </p>
-        <a href="https://github.com/tanmichael1/Portfolio" target="_blank">
-          <button type="button" className="btn-xlarge btn-outline-secondary">
-            Github
-          </button>
+        <a
+          href="https://github.com/tanmichael1/Portfolio"
+          type="button"
+          className="btn btn-xlarge btn-outline-secondary"
+          target="_blank"
+        >
+          Github
         </a>
         <br />
         <br />
@@ -101,10 +110,13 @@ function Projects() {
           digital level. I started creating this website before I actually
           learned how to code.
         </p>
-        <a href="https://thecinemacritic.wordpress.com/" target="_blank">
-          <button type="button" className="btn-xlarge btn-outline-secondary">
-            Website
-          </button>
+        <a
+          href="https://thecinemacritic.wordpress.com/"
+          type="button"
+          className="btn btn-xlarge btn-outline-secondary"
+          target="_blank"
+        >
+          Website
         </a>
         <br />
         <br />

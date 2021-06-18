@@ -216,6 +216,12 @@ h2 {
   margin-top: 0vh;
 }
 
+.cv a {
+  background-color: #3f72af;
+  color: #f9f7f7;
+  margin-top: 0vh;
+}
+
 .cvAndContactSection {
   background-color: #dbe2ef;
   padding-bottom: 5vh;
@@ -615,6 +621,12 @@ form {
   }
 
   .cv button {
+    margin-top: 3vh;
+
+    margin-left: 0vw;
+  }
+
+  .cv a {
     margin-top: 3vh;
 
     margin-left: 0vw;

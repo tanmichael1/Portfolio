@@ -801,3 +801,9 @@ form {
     font-size: 1rem;
   }
 }
+
+@media only screen and (min-width: 3245px) {
+  .contact h1 {
+    margin-left: 4vw;
+  }
+}

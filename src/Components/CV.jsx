@@ -16,7 +16,7 @@ function CV() {
             href="https://drive.google.com/file/d/1Lb88WupaiHW0PW8rBrvSb9EWfRrJk4pC/view?usp=sharing"
             role="button"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             View CV
           </a>

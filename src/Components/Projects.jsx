@@ -22,6 +22,7 @@ function Projects() {
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>
@@ -32,6 +33,7 @@ function Projects() {
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Website
           </a>
@@ -59,6 +61,7 @@ function Projects() {
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>
@@ -93,6 +96,7 @@ function Projects() {
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>
@@ -123,6 +127,7 @@ function Projects() {
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Website
           </a>

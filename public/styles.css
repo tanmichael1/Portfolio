@@ -190,7 +190,7 @@ h2 {
 }
 
 .cv2ndHalf {
-  padding-top: 5vh;
+  padding-top: 3vh;
   padding-bottom: 2vh;
 }
 
@@ -255,9 +255,6 @@ h2 {
 .projects p {
   padding-bottom: 3vh;
   font-size: 1.3rem;
-}
-
-.project {
 }
 
 .footer {
@@ -547,7 +544,7 @@ form {
   }
 
   .cv img {
-    width: 50%;
+    width: 80%;
   }
 
   .footer {
@@ -591,6 +588,9 @@ form {
     margin-left: 10%;
     font-size: 2rem;
   }
+  .contact {
+    margin-left: 0vw;
+  }
 
   .contact label {
     margin-left: 2vw;
@@ -616,16 +616,17 @@ form {
     margin-bottom: 0vh;
   }
 
-  .cv img {
-    width: 70%;
-  }
-
   .cv {
     text-align: center;
+    margin-left: 2.5vw;
 
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 
     margin-top: 5vh;
+  }
+
+  .cv img {
+    width: 85%;
   }
 
   .cv form {
@@ -647,6 +648,11 @@ form {
     margin-top: 3vh;
 
     margin-left: 0vw;
+  }
+
+  .cv2ndHalf {
+    padding-top: 1vh;
+    padding-bottom: 2vh;
   }
 
   .projects img {
@@ -722,7 +728,6 @@ form {
   .contact h1 {
     text-align: center;
     font-size: 4.5rem;
-    margin-left: 8vw;
   }
 
   .contact form {
@@ -774,31 +779,51 @@ form {
 
   .contact form {
     margin-left: 3vw;
+    width: 100%;
   }
 
   .contact textarea {
     width: 85%;
-    margin-left: 1.5vw;
+    margin-left: 2vw;
   }
   .contact label {
     font-size: 1.5rem;
-    margin-left: 1.5vw;
+    margin-left: 2vw;
   }
 
   .contact input {
-    margin-left: 1.5vw;
+    margin-left: 2vw;
   }
 
   .cv {
     text-align: center;
-
     margin-left: 2.5vw;
+  }
+
+  .cv form {
+    width: 100%;
+  }
+  .cv a {
+    margin-top: 1vh;
   }
 }
 
 @media only screen and (min-width: 2300px) {
   .contact label {
     font-size: 1rem;
+  }
+  .cv img {
+    width: 80%;
+  }
+
+  .cv h1 {
+    margin-left: 4vw;
+    text-align: center;
+  }
+
+  .cv2ndHalf {
+    padding-top: 0vh;
+    padding-bottom: 2vh;
   }
 }
 

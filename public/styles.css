@@ -598,7 +598,7 @@ form {
   }
 
   .contact h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
   .contact form {
     width: 100%;
@@ -618,9 +618,7 @@ form {
 
   .cv {
     text-align: center;
-    margin-left: 2.5vw;
-
-    /* margin-left: 3vw; */
+    /* margin-left: 2.5vw; */
 
     margin-top: 5vh;
   }
@@ -635,7 +633,7 @@ form {
   }
 
   .cv h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 
   .cv button {
@@ -727,12 +725,12 @@ form {
 
   .contact h1 {
     text-align: center;
-    font-size: 4.5rem;
+    margin-left: 5vw;
   }
 
   .contact form {
-    width: 90%;
-    margin-left: 5.5vw;
+    width: 100%;
+    margin-left: 3vw;
   }
 
   .contact textarea {
@@ -748,10 +746,6 @@ form {
 
   .cv img {
     width: 75%;
-  }
-
-  .cv h1 {
-    font-size: 4.5rem;
   }
 }
 
@@ -771,10 +765,6 @@ form {
   .projects img {
     width: 65vw;
     height: 30vw;
-  }
-
-  .contact h1 {
-    margin-left: 5vw;
   }
 
   .contact form {

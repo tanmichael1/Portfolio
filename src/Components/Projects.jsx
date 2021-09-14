@@ -7,6 +7,40 @@ function Projects() {
         <h1>Projects</h1>
 
         <div className="project">
+          <h2>React Calculator</h2>
+          <img src={"./images/Calculator.JPG"} alt="Calculator preview" />
+          <p>
+            This is my atttempt at creating a calculator using React,
+            JavaScript, CSS and HTML. There are 3 different calculators in this
+            app, the Basic Form Calculator which allows you to add, subtract,
+            multiple or divide the current number by a certain amount of your
+            choice, the Visual Calculator which has a representation of the
+            calculator with functional buttons, and the Equations Calculator
+            which processes calculations that the user inputs.
+          </p>
+          <a
+            href="https://github.com/tanmichael1/Quiz-ReactJS"
+            type="button"
+            className="btn btn-xlarge btn-outline-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <br />
+
+          <a
+            href="https://quiz---reactjs.web.app/"
+            type="button"
+            className="btn btn-xlarge btn-outline-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Website
+          </a>
+        </div>
+
+        <div className="project">
           <h2>React JS Quiz</h2>
           <img src={"./images/ReactJS-Quiz.JPG"} alt="React quiz preview" />
           <p>

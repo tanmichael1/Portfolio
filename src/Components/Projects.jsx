@@ -16,7 +16,8 @@ function Projects() {
             multiple or divide the current number by a certain amount of your
             choice, the Visual Calculator which has a representation of the
             calculator with functional buttons, and the Equations Calculator
-            which processes calculations that the user inputs.
+            which processes calculations that the user inputs. This is my latest
+            project.
           </p>
           <a
             href="https://github.com/tanmichael1/Quiz-ReactJS"
@@ -48,8 +49,7 @@ function Projects() {
             hosted. It uses React, JavaScript, CSS and HTML, and makes use of
             Firebase’s database and hosting features. Registered users are able
             to create, edit and delete their own quizzes. People will be able to
-            take the publicly created quizzes. This is my current project, and I
-            am continuing to work on this.
+            take the publicly created quizzes.
           </p>
           <a
             href="https://github.com/tanmichael1/Quiz-ReactJS"

@@ -29,18 +29,8 @@ function Projects() {
             Github
           </a>
           <br />
-
-          <a
-            href="https://quiz---reactjs.web.app/"
-            type="button"
-            className="btn btn-xlarge btn-outline-secondary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Website
-          </a>
         </div>
-
+        <hr />
         <div className="project">
           <h2>React JS Quiz</h2>
           <img src={"./images/ReactJS-Quiz.JPG"} alt="React quiz preview" />

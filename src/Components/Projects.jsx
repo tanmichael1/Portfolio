@@ -20,7 +20,7 @@ function Projects() {
             project.
           </p>
           <a
-            href="https://github.com/tanmichael1/Quiz-ReactJS"
+            href="https://github.com/tanmichael1/Calculator"
             type="button"
             className="btn btn-xlarge btn-outline-secondary"
             target="_blank"

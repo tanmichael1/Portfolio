@@ -5,19 +5,41 @@ function Projects() {
     <div id="projects" className="projects">
       <div>
         <h1>Projects</h1>
-
+        <div className="project">
+          <h2>To Do List</h2>
+          <img src={"./images/ToDoList.JPG"} alt="To Do List preview" />
+          <p>
+            This is a To-do List app, which I made using React, JavaScript, CSS
+            and HTML. In each list, you can edit the title, delete the whole
+            list, as well as add new todo items, edit them, or remove them from
+            the list. You can also mark the tasks as active or completed, along
+            with filtering all the displayed tasks by current status (All Items,
+            Active or Completed). You can also create brand new separate lists.
+            This is my latest project.
+          </p>
+          <a
+            href="https://github.com/tanmichael1/To-Do-List"
+            type="button"
+            className="btn btn-xlarge btn-outline-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <br />
+        </div>
+        <hr />
         <div className="project">
           <h2>React Calculator</h2>
           <img src={"./images/Calculator.JPG"} alt="Calculator preview" />
           <p>
-            This is my atttempt at creating a calculator using React,
-            JavaScript, CSS and HTML. There are 3 different calculators in this
-            app, the Basic Form Calculator which allows you to add, subtract,
-            multiple or divide the current number by a certain amount of your
-            choice, the Visual Calculator which has a representation of the
-            calculator with functional buttons, and the Equations Calculator
-            which processes calculations that the user inputs. This is my latest
-            project.
+            This is my attempt at creating a calculator using React, JavaScript,
+            CSS and HTML. There are 3 different calculators in this app, the
+            Basic Form Calculator which allows you to add, subtract, multiple or
+            divide the current number by a certain amount of your choice, the
+            Visual Calculator which has a representation of the calculator with
+            functional buttons, and the Equations Calculator which processes
+            calculations that the user inputs.
           </p>
           <a
             href="https://github.com/tanmichael1/Calculator"

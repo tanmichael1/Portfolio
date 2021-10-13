@@ -57,11 +57,11 @@ function Projects() {
           <h2>React JS Quiz</h2>
           <img src={"./images/ReactJS-Quiz.JPG"} alt="React quiz preview" />
           <p>
-            My second iteration of a quiz website, which will be publicly
-            hosted. It uses React, JavaScript, CSS and HTML, and makes use of
-            Firebase’s database and hosting features. Registered users are able
-            to create, edit and delete their own quizzes. People will be able to
-            take the publicly created quizzes.
+            My second iteration of a quiz website, which is publicly hosted. It
+            uses React, JavaScript, CSS and HTML, and makes use of Firebase’s
+            database and hosting features. Registered users are able to create,
+            edit and delete their own quizzes. People are able to take the
+            publicly created quizzes.
           </p>
           <a
             href="https://github.com/tanmichael1/Quiz-ReactJS"

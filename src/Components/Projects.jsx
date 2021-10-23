@@ -6,6 +6,29 @@ function Projects() {
       <div>
         <h1>Projects</h1>
         <div className="project">
+          <h2>Notes App</h2>
+          <img src={"./images/Notes.JPG"} alt="Notes App preview" />
+          <p>
+            This is a Notes app, which I made using React, JavaScript, CSS and
+            HTML. You can create new notes and choose the colour of the new note
+            using the colour picker. You can also edit and delete any of the
+            notes. There's also a search bar which can be used, which will
+            filter the notes depending on your input. This is my latest project.
+          </p>
+          <a
+            href="https://github.com/tanmichael1/Notes-App"
+            type="button"
+            className="btn btn-xlarge btn-outline-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <br />
+        </div>
+        <hr />
+
+        <div className="project">
           <h2>To Do List</h2>
           <img src={"./images/ToDoList.JPG"} alt="To Do List preview" />
           <p>

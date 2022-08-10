@@ -8,7 +8,7 @@ function About() {
         <div>
           <p>
             I am a recent graduate, having completed my Computer Science and
-            Computer Graphics degree at Victoria University.
+            Computer Graphics degree at Victoria University. I currently work as a Software Developer at Datacom.
           </p>{" "}
           <br />
           <p>
@@ -20,7 +20,7 @@ function About() {
           </p>{" "}
           <br />
           <p>
-            If I’m not coding or working on my own web development projects, I’m
+            If I’m not coding or working, I’m
             watching movies or writing movie and tv reviews and screenplays.
           </p>
         </div>
